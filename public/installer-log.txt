@@ -1,0 +1,217 @@
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* VERSION: 1.2.30
+* STEP-1 START @ 01:29:24
+* NOTICE: Do NOT post this data to public sites or forums
+********************************************************************************
+PHP VERSION:	5.6.32 | SAPI: fpm-fcgi
+PHP TIME LIMIT:	[0] time limit restriction disabled
+PHP MEMORY:	2048M | SUHOSIN: disabled
+SERVER:		Apache/2.4.28 (Unix) OpenSSL/1.0.2g
+DOC ROOT:	/srv/users/serverpilot/apps/ocrepairs/public
+DOC ROOT 755:	true
+LOG FILE 644:	true
+REQUEST URL:	http://ocrepairs.com/installer.php
+SAFE MODE :	0
+--------------------------------------
+ARCHIVE EXTRACTION
+--------------------------------------
+NAME:	ocrepair_f13bde2ed1d9e6654138171229131841_archive.zip
+SIZE:	38.57MB
+ZIP:	Enabled (ZipArchive Support)
+
+>>> START EXTRACTION:
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 5065
+    [filename] => /srv/users/serverpilot/apps/ocrepairs/public/ocrepair_f13bde2ed1d9e6654138171229131841_archive.zip
+    [comment] => 
+)
+File timestamp is 'Current' mode: 2017-12-29 13:29:26
+<<< EXTRACTION COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to *.171229132926.orig
+- Reset of .htaccess/web.config files
+
+STEP-1 COMPLETE @ 01:29:26 - RUNTIME: 1.6085 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-2 START @ 01:30:06
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+--------------------------------------
+DATABASE ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.20 -- Build Server: 5.7.16
+FILE SIZE:	database.sql (4.11MB) - installer-data.sql (4.11MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/srv/users/serverpilot/apps/ocrepairs/public/installer-data.sql]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+TABLES DROPPED:	44
+QUERIES RAN:	403
+
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_crellyslider_elements: (14)
+wp_crellyslider_sliders: (1)
+wp_crellyslider_slides: (3)
+wp_duplicator_packages: (2)
+wp_gmwd_circles: (0)
+wp_gmwd_maps: (1)
+wp_gmwd_mapstyles: (0)
+wp_gmwd_markercategories: (0)
+wp_gmwd_markers: (2)
+wp_gmwd_options: (10)
+wp_gmwd_polygons: (0)
+wp_gmwd_polylines: (0)
+wp_gmwd_rectangles: (0)
+wp_gmwd_shortcodes: (4)
+wp_gmwd_themes: (1)
+wp_links: (0)
+wp_nextend2_image_storage: (4)
+wp_nextend2_section_storage: (4)
+wp_nextend2_smartslider3_generators: (0)
+wp_nextend2_smartslider3_sliders: (2)
+wp_nextend2_smartslider3_sliders_xref: (1)
+wp_nextend2_smartslider3_slides: (7)
+wp_options: (403)
+wp_postmeta: (2181)
+wp_posts: (1207)
+wp_statistics_exclusions: (0)
+wp_statistics_historical: (0)
+wp_statistics_pages: (132)
+wp_statistics_search: (1)
+wp_statistics_useronline: (0)
+wp_statistics_visit: (40)
+wp_statistics_visitor: (266)
+wp_strong_views: (1)
+wp_term_relationships: (136)
+wp_term_taxonomy: (34)
+wp_termmeta: (0)
+wp_terms: (34)
+wp_usermeta: (51)
+wp_users: (1)
+wp_wdslayer: (0)
+wp_wdsslide: (3)
+wp_wdsslider: (1)
+
+Removed '53' cache/transient rows
+
+CREATE/INSTALL RUNTIME: 0.2708 sec.
+STEP-2 COMPLETE @ 01:30:06 - RUNTIME: 0.3065 sec.
+
+
+********************************************************************************
+* DUPLICATOR-LITE: INSTALL-LOG
+* STEP-3 START @ 01:30:17
+* NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	utf8mb4
+CHARSET CLIENT:	utf8
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_crellyslider_elements~ (14)
+wp_crellyslider_sliders~ (1)
+wp_crellyslider_slides~ (3)
+wp_duplicator_packages^ (0)
+wp_gmwd_circles^ (0)
+wp_gmwd_maps~ (1)
+wp_gmwd_mapstyles^ (0)
+wp_gmwd_markercategories^ (0)
+wp_gmwd_markers~ (2)
+wp_gmwd_options~ (10)
+wp_gmwd_polygons^ (0)
+wp_gmwd_polylines^ (0)
+wp_gmwd_rectangles^ (0)
+wp_gmwd_shortcodes~ (4)
+wp_gmwd_themes~ (1)
+wp_links^ (0)
+wp_nextend2_image_storage~ (4)
+wp_nextend2_section_storage~ (4)
+wp_nextend2_smartslider3_generators^ (0)
+wp_nextend2_smartslider3_sliders~ (2)
+wp_nextend2_smartslider3_sliders_xref~ (1)
+wp_nextend2_smartslider3_slides~ (7)
+wp_options~ (350)
+wp_postmeta~ (2181)
+wp_posts~ (1207)
+wp_statistics_exclusions^ (0)
+wp_statistics_historical^ (0)
+wp_statistics_pages~ (132)
+wp_statistics_search~ (1)
+wp_statistics_useronline^ (0)
+wp_statistics_visit~ (40)
+wp_statistics_visitor~ (266)
+wp_strong_views~ (1)
+wp_term_relationships~ (136)
+wp_term_taxonomy~ (34)
+wp_termmeta^ (0)
+wp_terms~ (34)
+wp_usermeta~ (51)
+wp_users~ (1)
+wp_wdslayer^ (0)
+wp_wdsslide~ (3)
+wp_wdsslider~ (1)
+--------------------------------------
+Search1:	'/home/pz257197/ccn.kb-karat.com/www' 
+Change1:	'/srv/users/serverpilot/apps/ocrepairs/public' 
+Search2:	'\/home\/pz257197\/ccn.kb-karat.com\/www' 
+Change2:	'\/srv\/users\/serverpilot\/apps\/ocrepairs\/public' 
+Search3:	'%2Fhome%2Fpz257197%2Fccn.kb-karat.com%2Fwww%2F' 
+Change3:	'%2Fsrv%2Fusers%2Fserverpilot%2Fapps%2Focrepairs%2Fpublic%2F' 
+Search4:	'\home\pz257197\ccn.kb-karat.com\www' 
+Change4:	'/srv/users/serverpilot/apps/ocrepairs/public' 
+Search5:	'//ccn.kb-karat.com' 
+Change5:	'//ocrepairs.com' 
+Search6:	'\/\/ccn.kb-karat.com' 
+Change6:	'\/\/ocrepairs.com' 
+Search7:	'%2F%2Fccn.kb-karat.com' 
+Change7:	'%2F%2Focrepairs.com' 
+SCANNED:	Tables:44 	|	 Rows:4493 	|	 Cells:43432 
+UPDATED:	Tables:2 	|	 Rows:1518 	|	 Cells:2013 
+ERRORS:		0 
+RUNTIME:	0.609000 sec
+
+====================================
+CONFIGURATION FILE UPDATES:
+====================================
+
+UPDATED WP-CONFIG: /wp-config.php' (if present)
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+- Preparing .htaccess file with basic setup.
+Basic .htaccess file edit complete.  If using IIS web.config this process will need to be done manually.
+
+====================================
+GENERAL UPDATES & CLEANUP:
+====================================
+
+- Created directory wp-snapshots
+- Created file wp-snapshots/index.php
+
+====================================
+NOTICES
+====================================
+
+No Notices Found
+
+
+STEP 3 COMPLETE @ 01:30:17 - RUNTIME: 0.6174 sec.
+
+
