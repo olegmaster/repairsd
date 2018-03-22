@@ -20,19 +20,19 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'repairSD');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'username_here');
+define('DB_USER', '9ca5de045223');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', '123456789');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'впишите сюда уникальную фразу');
-define('SECURE_AUTH_KEY',  'впишите сюда уникальную фразу');
-define('LOGGED_IN_KEY',    'впишите сюда уникальную фразу');
-define('NONCE_KEY',        'впишите сюда уникальную фразу');
-define('AUTH_SALT',        'впишите сюда уникальную фразу');
-define('SECURE_AUTH_SALT', 'впишите сюда уникальную фразу');
-define('LOGGED_IN_SALT',   'впишите сюда уникальную фразу');
-define('NONCE_SALT',       'впишите сюда уникальную фразу');
+define('AUTH_KEY',         'kzvhltV~k)pSrTC!]=$|7UP))@Rf?lr;kDS~:l;p,6HavUF/jb3q;OnmO3bvd*M*');
+define('SECURE_AUTH_KEY',  'P(,:BEVKcBG/Ie,-f{.O^WLixg[ipfvMF5E,$Ckv`T?JlPn*(^vrVy;q5V35mAFR');
+define('LOGGED_IN_KEY',    '+1UQqiM^?R7=D{OTQh7KUmv} `j~Fc}VKZ0E4stdBoO5AP+,F.X#~}RNtTsXvpZQ');
+define('NONCE_KEY',        ')]9CQ^f,SWYQ$RuE+<M,JzSiAAk)VAO38&CouRX_ew?RQE2VZkpQCDny|G4u:Wk1');
+define('AUTH_SALT',        '91/AQB8(7w-VgiP[$PSXW9Sbe@uy]y=!E/jJWhsN86Xk)>{%B%HRZD VzpBwXC76');
+define('SECURE_AUTH_SALT', ';3| ORa&7y*+U`noT:dM_Z[:$!i0(pk6*(SzgdDN-z}YL=1K;hDr?869A0Of_EfY');
+define('LOGGED_IN_SALT',   '/n>y,rS5Sv<D=,<MoXBz9yD;TlkEO%-I^Xyo]kfvDUq,dYONPx%AJhWoR}c)QT?c');
+define('NONCE_SALT',       ',z@+JA$?e2h(@SzRWYkCmA g~]H5g58E$z<aWjK3N5$z@W6]wCol?,2W~9ewm0?>');
 
 /**#@-*/
 
