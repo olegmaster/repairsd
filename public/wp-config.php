@@ -20,19 +20,19 @@
 
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 /** Имя базы данных для WordPress */
-define('DB_NAME', 'ocrepairs-wp-A1tP452r');
+define('DB_NAME', 'database_name_here');
 
 /** Имя пользователя MySQL */
-define('DB_USER', 'nsA11L4v0ynH');
+define('DB_USER', 'username_here');
 
 /** Пароль к базе данных MySQL */
-define('DB_PASSWORD', '12345678');
+define('DB_PASSWORD', 'password_here');
 
 /** Имя сервера MySQL */
 define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         '0e1&*(3/^W)RcC^xfLnvcFd3E-to}.:l;Bw^S?Tp]JBQ0N|nW&ZAPr%~?Kt*6)lT');
-define('SECURE_AUTH_KEY',  'sAUl;!tlyD>mWnMp^hH]w90hq6)SQHL#cau9nFQzZYd=c`p>R(VPFv;1NregOH-m');
-define('LOGGED_IN_KEY',    'XO!Xyjo#%)XxCdY^Tv1 ,5T:>Xy:M!Ucl()MTKC|ZEz~wqe*s:tjqgC2]>#9^Iws');
-define('NONCE_KEY',        'uG7c)~ATkgEc_P}| FMZa+IuRR`}=`f,,j-tRLvWFX3FDm3:c=gZImh}mqiuaD5{');
-define('AUTH_SALT',        ')h[Y-5E,Jt>=l6*`QSFI0~$$$b:-f<9[Z+[N+0l.& d/a2)q>~8kXGm#VQ(56bGS');
-define('SECURE_AUTH_SALT', 'AA``so0}aG%!Ap,8cQ/6TM_4@I0oDpUu/*92]&Kg?=dYHa/vKf5poUe*0@mN-)r!');
-define('LOGGED_IN_SALT',   '`Rh#O1*|l#8JH?B7eC/5PsRs:^k6Fn]dJN2]Fv6grlU;nH0N$:g4P-&Bi8J4K+/!');
-define('NONCE_SALT',       '&/c#/RMW4~ytz(_{DkXLXiw hl3#=gnYR4=,QXp*BUW%d0TiRa`V;mHm:,i+sj5@');
+define('AUTH_KEY',         'впишите сюда уникальную фразу');
+define('SECURE_AUTH_KEY',  'впишите сюда уникальную фразу');
+define('LOGGED_IN_KEY',    'впишите сюда уникальную фразу');
+define('NONCE_KEY',        'впишите сюда уникальную фразу');
+define('AUTH_SALT',        'впишите сюда уникальную фразу');
+define('SECURE_AUTH_SALT', 'впишите сюда уникальную фразу');
+define('LOGGED_IN_SALT',   'впишите сюда уникальную фразу');
+define('NONCE_SALT',       'впишите сюда уникальную фразу');
 
 /**#@-*/
 

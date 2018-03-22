@@ -16,7 +16,6 @@ if ( !isset($wp_did_header) ) {
 	wp();
 
 	// Load the theme template.
-	
 	require_once( ABSPATH . WPINC . '/template-loader.php' );
 
 }
