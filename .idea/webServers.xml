@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="19a1ed68-d27d-4849-a1fa-9dab66b55107" name="repairSD" url="http://repairsd.com">
+        <fileTransfer host="104.237.135.124" port="22" rootFolder="/srv/users/serverpilot" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
