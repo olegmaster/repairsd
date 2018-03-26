@@ -1,13 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f739ad02-faeb-4d4c-b303-b0f05c69a67b" name="Default" comment="">
-      <change beforePath="D:/Agricultural/store_agricultural_markup/.idea/workspace.xml" afterPath="D:/Agricultural/store_agricultural_markup/.idea/workspace.xml" />
-      <change beforePath="D:/Agricultural/store_agricultural_markup/css/main.css" afterPath="D:/Agricultural/store_agricultural_markup/css/main.css" />
-      <change beforePath="D:/Agricultural/store_agricultural_markup/js/main.js" afterPath="D:/Agricultural/store_agricultural_markup/js/main.js" />
-      <change beforePath="D:/Agricultural/store_agricultural_markup/js/script.js" afterPath="" />
-      <change beforePath="D:/Agricultural/store_agricultural_markup/views/products/edit.html" afterPath="D:/Agricultural/store_agricultural_markup/views/products/edit.html" />
-      <change beforePath="D:/Agricultural/store_agricultural_markup/views/products/show.html" afterPath="D:/Agricultural/store_agricultural_markup/views/products/show.html" />
+    <list default="true" id="279c285c-4348-4c11-8742-c2fac02b78a5" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/repairsd_development.iml" afterPath="$PROJECT_DIR$/.idea/repairsd_development.iml" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/admin-ru_RU.mo" afterPath="$PROJECT_DIR$/public/wp-content/languages/admin-ru_RU.mo" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/admin-ru_RU.po" afterPath="$PROJECT_DIR$/public/wp-content/languages/admin-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/plugins/akismet-ru_RU.po" afterPath="$PROJECT_DIR$/public/wp-content/languages/plugins/akismet-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/plugins/contact-form-7-ru_RU.po" afterPath="$PROJECT_DIR$/public/wp-content/languages/plugins/contact-form-7-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/plugins/crelly-slider-ru_RU.po" afterPath="$PROJECT_DIR$/public/wp-content/languages/plugins/crelly-slider-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/languages/themes/twentysixteen-ru_RU.po" afterPath="$PROJECT_DIR$/public/wp-content/languages/themes/twentysixteen-ru_RU.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/CHANGES.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/admin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/css/tinymce-shortcodes.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/css/widget-rules.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/images/icon_shortcodes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/export-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/export.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/import-check-settings.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/import-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/import.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/import-export/upload.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/js/cherry-admin-plugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/js/import.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/js/upload-media-files.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/js/widget-rules.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-admin-script.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-components.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-function.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-maintenance-mode.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-pages.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/plugin-updater.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/dialog.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/dialog.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/editor-plugin-39.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/editor-plugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/settings-page.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_alert_box.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_banner.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_button.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_carousel.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_carousel_owl.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_categories.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_chp_pricing_table.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_google_map_api.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_hero_unit.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_icon.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_label.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_mini_posts_grid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_mini_posts_list.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_post_cycle.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_posts_grid.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_posts_list.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_progressbar.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_recentcomments.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_recentposts.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_recenttesti.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_roundabout.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_service_box.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_site_map.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_title.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/shortcodes/my_video_preview.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/admin/shortcodes/tinymce-shortcodes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/cherry-plugin.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin-rtl.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin-rtl.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/css/cherry-plugin.less" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/bg_direction_nav.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon10.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon6.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon7.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon8.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/icon9.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/alert.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/building.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/chemical.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/cloud.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/cog.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/cut.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/graph.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/info.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/magnify.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/mail.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/music-folder.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/pacman.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/speach-bubble.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/stop-watch.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/users.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/iconSweets/window.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/nav.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/images/quotes.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/js/cherry-plugin.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/plugin-assets.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/plugin-functions.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/plugin-includes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/plugin-script.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/plugin-under-construction-content.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/alert.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/banner.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/carousel-owl.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/carousel.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/categories.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/columns.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/hero-unit.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/html.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/media.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/mini-posts-grid.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/mini-posts-list.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/misc.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/post-cycle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/posts-grid.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/posts-list.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/pricing-tables.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/progressbar.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/roundabout.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/service-box.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/shortcodes.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/table.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/tabs.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/shortcodes/toggle.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/cherry-banner-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/cherry-instagram-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/cherry-pinterest-embed-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/cherry-twitter-embed-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-banners-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-comment-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-facebook-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-flickr-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-post-cycle-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-posts-type-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-recent-posts.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-social-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/my-vcard-widget.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/register-widgets.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/includes/widgets/widgets-manager.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-blank.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-blank.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-de_DE.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-de_DE.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-es_ES.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-es_ES.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-fr_FR.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-fr_FR.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-it_IT.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-it_IT.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-ru_RU.mo" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/languages/cherry-plugin-ru_RU.po" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/flexslider.css.bak" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/fonts/flexslider-icon.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/fonts/flexslider-icon.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/fonts/flexslider-icon.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/fonts/flexslider-icon.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/images/bg_play_pause.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/FlexSlider/jquery.flexslider-min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/elasti-carousel/jquery.elastislide.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/jquery.easing.1.3.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/AjaxLoader.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/grabbing.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/owl-carousel/owl.theme.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/roundabout/jquery.roundabout-shapes.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/js/roundabout/jquery.roundabout.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/php/aq_resizer.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/cherry-plugin/lib/php/parsers.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/admin.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/admin.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/css/styles-rtl.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/css/styles.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/edit-contact-form.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/admin-functions.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/class-contact-forms-list-table.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/editor.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/editor.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/help-tabs.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/tag-generator.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/includes/welcome-panel.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/js/scripts.js" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/admin/js/tag-generator.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/capabilities.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/capabilities.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/config-validator.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/config-validator.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form-functions.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form-template.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form-template.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/contact-form.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/controller.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/controller.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/css/styles-rtl.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/css/styles.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/css/styles.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/form-tag.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/form-tag.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/form-tags-manager.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/formatting.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/formatting.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/functions.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/functions.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/integration.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/integration.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/jquery-ui.min.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/jquery-ui/themes/smoothness/theme.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/scripts.js" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/js/scripts.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/l10n.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/l10n.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/mail.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/mail.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/pipe.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/pipe.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/rest-api.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/rest-api.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/shortcodes.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/shortcodes.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/special-mail-tags.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/submission.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/submission.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/upgrade.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/upgrade.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/validation.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/includes/validation.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/languages/readme.txt" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/languages/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/license.txt" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/license.txt" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/acceptance.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/acceptance.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/akismet.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/akismet.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/checkbox.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/checkbox.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/count.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/count.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/date.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/date.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/file.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/file.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/flamingo.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/flamingo.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/hidden.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/hidden.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/listo.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/listo.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/number.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/number.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/quiz.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/quiz.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/really-simple-captcha.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/recaptcha.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/recaptcha.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/response.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/response.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/select.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/select.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/submit.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/submit.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/text.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/text.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/textarea.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/modules/textarea.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/readme.txt" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/readme.txt" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/settings.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/settings.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/uninstall.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/uninstall.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/wp-contact-form-7.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/contact-form-7/wp-contact-form-7.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/hello.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/hello.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/mousewheel-smooth-scroll/languages/wpmss-sk_SK.po" afterPath="$PROJECT_DIR$/public/wp-content/plugins/mousewheel-smooth-scroll/languages/wpmss-sk_SK.po" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/js/wpsisac-public.js" afterPath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/assets/js/wpsisac-public.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/admin/class-wpsisac-admin.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/admin/class-wpsisac-admin.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/admin/settings/premium.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/admin/settings/premium.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/class-wpsisac-script.php" afterPath="$PROJECT_DIR$/public/wp-content/plugins/wp-slick-slider-and-image-carousel/includes/class-wpsisac-script.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.svg" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.svg" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/footer.php" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/footer.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/general.js" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/general.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/style.css" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,40 +260,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
-        <entry file="file://D:/Agricultural/store_agricultural_markup/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="577">
-              <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Agricultural/store_agricultural_markup/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
-              <caret line="73" column="61" lean-forward="false" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="D:/Agricultural/store_agricultural_markup" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="D:/Agricultural/store_agricultural_markup/js/main.js" />
-        <option value="D:/Agricultural/store_agricultural_markup/views/products/edit.html" />
-        <option value="D:/Agricultural/store_agricultural_markup/css/main.css" />
-      </list>
-    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -60,12 +273,11 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="648" />
-    <option name="y" value="65" />
-    <option name="width" value="1139" />
-    <option name="height" value="1047" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -81,6 +293,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -88,18 +301,22 @@
               <item name="repairsd_development" type="b2602c69:ProjectViewProjectNode" />
               <item name="repairsd_development" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="repairsd_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repairsd_development" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Meral.us/software_meral_markup" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -126,36 +343,35 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f739ad02-faeb-4d4c-b303-b0f05c69a67b" name="Default" comment="" />
-      <created>1521724164003</created>
+      <changelist id="279c285c-4348-4c11-8742-c2fac02b78a5" name="Default" comment="" />
+      <created>1521821081541</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1521724164003</updated>
-      <workItem from="1521724165257" duration="1580000" />
-      <workItem from="1521726899198" duration="1354000" />
-      <workItem from="1521728601351" duration="1135000" />
-      <workItem from="1521794152071" duration="198000" />
+      <updated>1521821081541</updated>
+      <workItem from="1521821084087" duration="1230000" />
+      <workItem from="1522044530835" duration="2326000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4267000" />
+    <option name="totallyTimeSpent" value="3556000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23385416" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21979167" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -171,75 +387,8 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="WordPressConfiguration" enabled="true">
-    <wordpressPath>D:\RepairSD\repairsd_development\repairsd_development\public</wordpressPath>
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://D:/Agricultural/store_agricultural_markup/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="61" lean-forward="false" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/views/products/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1989">
-          <caret line="117" column="79" lean-forward="false" selection-start-line="117" selection-start-column="79" selection-end-line="117" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5440">
-          <caret line="320" column="19" lean-forward="false" selection-start-line="320" selection-start-column="19" selection-end-line="320" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="61" lean-forward="false" selection-start-line="73" selection-start-column="61" selection-end-line="73" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/views/products/edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="155" column="38" lean-forward="false" selection-start-line="155" selection-start-column="38" selection-end-line="155" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/Agricultural/store_agricultural_markup/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="577">
-          <caret line="132" column="22" lean-forward="false" selection-start-line="132" selection-start-column="22" selection-end-line="132" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>

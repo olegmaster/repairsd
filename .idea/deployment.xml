@@ -5,7 +5,6 @@
       <paths name="repairSD">
         <serverdata>
           <mappings>
-            <mapping local="D:/Agricultural/store_agricultural_markup" web="/" />
             <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>

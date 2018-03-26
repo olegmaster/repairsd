@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/repairsd_development.iml" filepath="$PROJECT_DIR$/.idea/repairsd_development.iml" />
-      <module fileurl="file://D:/Agricultural/store_agricultural_markup/.idea/store_agricultural_markup.iml" filepath="D:/Agricultural/store_agricultural_markup/.idea/store_agricultural_markup.iml" />
     </modules>
   </component>
 </project>

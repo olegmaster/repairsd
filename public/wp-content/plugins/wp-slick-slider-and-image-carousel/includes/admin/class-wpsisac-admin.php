@@ -31,7 +31,7 @@ class Wpsisac_Admin {
 	function wpsisac_register_menu() {
 
 		// Register plugin premium page
-		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __('Upgrade to PRO - Popup Anything', 'wp-slick-slider-and-image-carousel'), '<span style="color:#2ECC71">'.__('Upgrade to PRO', 'wp-slick-slider-and-image-carousel').'</span>', 'manage_options', 'wpsisac-premium', array($this, 'wpsisac_premium_page') );
+		add_submenu_page( 'edit.php?post_type='.WPSISAC_POST_TYPE, __('Upgrade to PRO - WP Slick Slider and Image Carousel', 'wp-slick-slider-and-image-carousel'), '<span style="color:#2ECC71">'.__('Upgrade to PRO', 'wp-slick-slider-and-image-carousel').'</span>', 'manage_options', 'wpsisac-premium', array($this, 'wpsisac_premium_page') );
 	}
 
 	/**

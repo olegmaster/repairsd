@@ -70,7 +70,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	    		</th>
 	    		<th>
 	    			<h2>Premium</h2>
-	    			<p>$16 USD</p>
+	    			<p>$19 USD</p>
 	    			<p class="promo">Our most valuable package!</p>
 	    		</th>	    		
 	    	</tr>
@@ -103,7 +103,7 @@ if ( !defined( 'ABSPATH' ) ) {
 	    	<tr>
 	    		<th>Shortcode Generator <span>Play with all shortcode parameters with preview panel. No documentation required!!</span></th>
 	    		<td><i class="dashicons dashicons-no-alt"></i></td>
-	    		<td>Coming Soon</td>
+	    		<td><i class="dashicons dashicons-yes"></i></td>
 	    	</tr>			    	
 			
 	    	<tr>
@@ -116,7 +116,7 @@ if ( !defined( 'ABSPATH' ) ) {
 				<td><i class="dashicons dashicons-no-alt"></i></td>
 				<td><i class="dashicons dashicons-yes"></i></td>
 			</tr>
-	    	<tr>
+	    	
 			<tr>
 				<th>Slider Effect  <span>Slider effect for slider shortcode</span></th>
 				<td>Slide</i></td>
