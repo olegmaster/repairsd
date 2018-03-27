@@ -11,6 +11,203 @@ Tags:        fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-
 Text Domain: cherry
 */
 
+/*Header*/
+
+/*Hamurger menu*/
+.background {
+    width: 100%;
+    height: 745px;
+    position: relative;
+}
+.background svg {
+    position: absolute;
+    width: 100%;
+}
+.background h1 {
+
+}
+
+/*Animation sea in svg picture*/
+#Sea .st2:nth-child(18), #Sea .st2:nth-child(19), #Sea .st2:nth-child(20),
+#Sea .st2:nth-child(21), #Sea .st2:nth-child(22), #Sea .st2:nth-child(23),
+#Sea .st2:nth-child(27), #Sea .st2:nth-child(28), #Sea .st2:nth-child(29),
+#Sea .st2:nth-child(30), #Sea .st2:nth-child(32), #Sea .st2:nth-child(36),
+#Sea .st2:nth-child(39), #Sea .st2:nth-child(40), #Sea .st2:nth-child(43) {
+    animation-name: wave-move;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(1), #Sea .st2:nth-child(2), #Sea .st2:nth-child(6),
+#Sea .st2:nth-child(7), #Sea .st2:nth-child(8), #Sea .st2:nth-child(9),
+#Sea .st2:nth-child(10), #Sea .st2:nth-child(37), #Sea .st2:nth-child(41) {
+    animation-name: wave-move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(3), #Sea .st2:nth-child(5), #Sea .st2:nth-child(11),
+#Sea .st2:nth-child(12), #Sea .st2:nth-child(13), #Sea .st2:nth-child(14),
+#Sea .st2:nth-child(15), #Sea .st2:nth-child(16), #Sea .st2:nth-child(17),
+#Sea .st2:nth-child(26), #Sea .st2:nth-child(31), #Sea .st2:nth-child(38), #Sea .st2:nth-child(42) {
+    animation-name: wave-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(4), #Sea .st2:nth-child(24), #Sea .st2:nth-child(25),
+#Sea .st2:nth-child(33), #Sea .st2:nth-child(34), #Sea .st2:nth-child(44),
+#Sea .st2:nth-child(45), #Sea .st2:nth-child(49) {
+    animation-name: wave-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(35), #Sea .st2:nth-child(46), #Sea .st2:nth-child(47),
+#Sea .st2:nth-child(48), #Sea .st2:nth-child(50), #Sea .st2:nth-child(51),
+#Sea .st2:nth-child(52), #Sea .st2:nth-child(53), #Sea .st2:nth-child(54),
+#Sea .st2:nth-child(55), #Sea .st2:nth-child(56) {
+    animation-name: wave-move;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(57), #Sea .st2:nth-child(58), #Sea .st2:nth-child(59),
+#Sea .st2:nth-child(60), #Sea .st2:nth-child(62), #Sea .st2:nth-child(65) {
+    animation-name: wave-move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+#Sea .st2:nth-child(63), #Sea .st2:nth-child(64) {
+    animation-name: wave-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translateY(0px);
+}
+
+@keyframes wave-move {
+    0% {
+        transform: translateY(3px);
+    }
+    50% {
+        transform: translateY(-3px);
+    }
+    100% {
+        transform: translateY(3px)
+    }
+}
+
+/*Anmition clouds in svg picture*/
+svg .st4:nth-child(7), svg .st4:nth-child(8),
+svg .st4:nth-child(9), svg .st4:nth-child(10) {
+    animation-name: back-cloud-move;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translate(240px);
+}
+
+@keyframes back-cloud-move {
+    0% {
+        transform: translate(360px);
+    }
+    100% {
+        transform: translate(-360px);
+    }
+}
+
+svg .st4:nth-child(11), svg .st4:nth-child(12) {
+    animation-name: cloud-move;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform: translate(-240px);
+}
+
+@keyframes cloud-move {
+    0% {
+        transform: translate(-360px);
+    }
+    100% {
+        transform: translate(360px);
+    }
+}
+
+/*Condition*/
+#Слой_23 {
+    animation: spin 5s linear infinite;
+    transform-origin: 1105px 50%;
+}
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .container-fluid {
     padding: 0;
 }
@@ -135,10 +332,8 @@ h2 span {
     color: #31d78f;
 }
 #header nav button {
-    background: rgba(63, 166, 233, 0.1);
-    border-radius: 20px;
-    border: 1px solid rgba(63, 166, 233, 0.2);
-    color: #f9feff;
+    background: transparent;
+    border: none;
     position: relative;
     box-shadow: none;
     font: 13px/15px "Roboto-Regular", sans-serif;

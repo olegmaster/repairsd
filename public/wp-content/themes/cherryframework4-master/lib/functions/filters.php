@@ -499,5 +499,7 @@ function cherry_add_mobile_menu_trigger( $menu, $args ) {
 	$label   = apply_filters( 'cherry_menu_mobile_label', __( 'Menu', 'cherry' ) );
 	$trigger = '<button class="menu-primary_trigger" aria-expanded="false" aria-controls="menu-primary-items">' . esc_textarea( $label ) . '</button>';
 
+	// HAMBURGER MENU
+
 	return $trigger . $menu;
 }

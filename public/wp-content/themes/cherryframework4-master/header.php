@@ -8,20 +8,24 @@
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-<head>
-<link rel="stylesheet" type="text/css" href="http://ocrepairs.com/wp-content/themes/cherryframework4-master/fonts.css">
+    <head>
 
-<?php wp_head(); ?>
-<?php echo get_post_meta($post->ID, 'googleapis', true); ?>
-</head>
-<body <?php cherry_attr( 'body' ); ?>>
+        <?php wp_head(); ?>
 
-	<?php do_action( 'cherry_body_start' ); ?>
+        <link rel="stylesheet" type="text/css" href="http://repairsd.com/wp-content/themes/cherryframework4-master/hamburgers.css">
 
-	<div id="site-wrapper" class="hfeed site">
+        <?php echo get_post_meta($post->ID, 'googleapis', true); ?>
 
-		<?php do_action( 'cherry_header_before' ); ?>
+    </head>
 
-		<?php do_action( 'cherry_header' ); ?>
+    <body <?php cherry_attr( 'body' ); ?>>
 
-		<?php do_action( 'cherry_header_after' ); ?>
+        <?php do_action( 'cherry_body_start' ); ?>
+
+        <div id="site-wrapper" class="hfeed site">
+
+            <?php do_action( 'cherry_header_before' ); ?>
+
+            <?php do_action( 'cherry_header' ); ?>
+
+            <?php do_action( 'cherry_header_after' ); ?>
