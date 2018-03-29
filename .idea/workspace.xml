@@ -2,11 +2,312 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="279c285c-4348-4c11-8742-c2fac02b78a5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/functions.php" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/functions.php" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/header.php" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/header.php" />
-      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/lib/functions/filters.php" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/lib/functions/filters.php" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Black.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BlackItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BlackItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BlackItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BlackItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Bold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Italic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Light.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-LightItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Bender/Bender.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/Caviar-Dreams/CaviarDreams.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/antonio/Antonio-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Bold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-BoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Italic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Regular.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/archivo-narrow/ArchivoNarrow-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/courier-prime/CourierPrime.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Demi-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Demi-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Demi-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Demi-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-DemiBold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-DemiBold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-DemiBold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-DemiBold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Extra-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Extra-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Extra-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Extra-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-ExtraLight.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-ExtraLight.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-ExtraLight.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-ExtraLight.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Heavy.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Heavy.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Heavy.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Heavy.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-HeavyItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-HeavyItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-HeavyItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-HeavyItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-RegularItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-RegularItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-RegularItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/Oswald-RegularItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/OswaldStencil-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/OswaldStencil-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/OswaldStencil-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/oswald/OswaldStencil-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Bold.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-BoldItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Italic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Light.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-LightItalic.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Regular.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/Quicksand-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/QuicksandDash-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/QuicksandDash-Regular.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/QuicksandDash-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/QuicksandDash-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/quicksand/QuicksandDash-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Black.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Black.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Black.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Black.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BlackItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BlackItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BlackItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BlackItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Medium.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Medium.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Medium.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Medium.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-MediumItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-MediumItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-MediumItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-MediumItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Thin.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Thin.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Thin.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-Thin.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-ThinItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-ThinItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-ThinItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/Roboto-ThinItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Bold.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Bold.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Bold.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Bold.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-BoldItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-BoldItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-BoldItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-BoldItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Italic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Italic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Italic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Italic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Light.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Light.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Light.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Light.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-LightItalic.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-LightItalic.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-LightItalic.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-LightItalic.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/RobotoCondensed-Regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/Fonts/roboto/styles.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/assets/css/main.css" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/assets/css/main.css" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/general.js" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/general.js" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/404.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/arrow-slide.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/arrow-slide2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/arrow.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/bg1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/border-test.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/border.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/couponn.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/dish-stat-new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/dots-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/dots.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/fix.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/form-complete.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/form.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/gift.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/new-oven-1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/new-oven-2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/range-stat-new.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/related-post-act.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/related-post.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/select.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/sprites.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/tag-act.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/tag.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test-left-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test-left.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test-right-hover.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test-right.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/test.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/images/washer-stat-new.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/style.css" afterPath="$PROJECT_DIR$/public/wp-content/themes/cherryframework4-master/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,9 +322,10 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://D:/Новая папка/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="392" column="16" lean-forward="false" selection-start-line="392" selection-start-column="16" selection-end-line="392" selection-end-column="16" />
+            <state relative-caret-position="153">
+              <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
               <folding>
+                <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -37,29 +339,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="background.svg" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Новая папка/images/background.svg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://D:/Новая папка/css/style.css">
+      <file leaf-file-name="fonts.css" pinned="true" current-in-tab="false">
+        <entry file="remoteDeploymentFS://&lt;bc8a3232-38ca-4be4-8592-588a589ea058&gt;/apps/repairsd/public/wp-content/themes/cherryframework4-master/fonts.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
-              <folding>
-                <element signature="e#407#581#0" expanded="false" />
-                <element signature="e#801#975#0" expanded="false" />
-                <element signature="e#1299#1473#0" expanded="false" />
-                <element signature="e#1673#1847#0" expanded="false" />
-                <element signature="e#2123#2297#0" expanded="false" />
-                <element signature="e#2448#2622#0" expanded="false" />
-                <element signature="e#3158#3340#0" expanded="false" />
-                <element signature="e#3342#3479#0" expanded="false" />
-                <element signature="e#3708#3840#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="102">
+              <caret line="12" column="1" lean-forward="false" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -67,8 +352,8 @@
       <file leaf-file-name="style.css" pinned="true" current-in-tab="true">
         <entry file="remoteDeploymentFS://&lt;bc8a3232-38ca-4be4-8592-588a589ea058&gt;/apps/repairsd/public/wp-content/themes/cherryframework4-master/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="149" column="11" lean-forward="false" selection-start-line="149" selection-start-column="11" selection-end-line="149" selection-end-column="11" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -81,6 +366,9 @@
       <find>menu-primary_trigger</find>
       <find>alt</find>
       <find>#header nav button</find>
+      <find>img</find>
+      <find>form</find>
+      <find>fixde</find>
     </findStrings>
     <dirStrings>
       <dir>D:\RepairSD\repairsd_development\public\wp-content\themes\cherryframework4-master</dir>
@@ -106,6 +394,8 @@
         <option value="D:/Новая папка/index.html" />
         <option value="D:/Новая папка/images/background.svg" />
         <option value="D:/Новая папка/css/style.css" />
+        <option value="&lt;bc8a3232-38ca-4be4-8592-588a589ea058&gt;/apps/repairsd/public/wp-content/themes/cherryframework4-master/assets/css/main.css" />
+        <option value="&lt;bc8a3232-38ca-4be4-8592-588a589ea058&gt;/apps/repairsd/public/wp-content/themes/cherryframework4-master/general.js" />
         <option value="&lt;bc8a3232-38ca-4be4-8592-588a589ea058&gt;/apps/repairsd/public/wp-content/themes/cherryframework4-master/style.css" />
       </list>
     </option>
@@ -139,7 +429,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,16 +454,34 @@
               <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="repairsd_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repairsd_development" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cherryframework4-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="repairsd_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="repairsd_development" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="public" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="cherryframework4-master" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="images" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/Meral.us/software_meral_markup" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -214,30 +521,31 @@
       <workItem from="1521821084087" duration="1230000" />
       <workItem from="1522044530835" duration="10236000" />
       <workItem from="1522133981926" duration="13519000" />
-      <workItem from="1522159745427" duration="4782000" />
+      <workItem from="1522159745427" duration="5680000" />
+      <workItem from="1522220447579" duration="20419000" />
+      <workItem from="1522306018878" duration="1227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29767000" />
+    <option name="totallyTimeSpent" value="52311000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.038014784" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21822916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18229167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -263,6 +571,66 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#1;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#3;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Новая папка/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#1;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#3;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Новая папка/images/background.svg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://D:/Новая папка/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
+          <folding>
+            <element signature="e#407#581#0" expanded="false" />
+            <element signature="e#801#975#0" expanded="false" />
+            <element signature="e#1299#1473#0" expanded="false" />
+            <element signature="e#1673#1847#0" expanded="false" />
+            <element signature="e#2123#2297#0" expanded="false" />
+            <element signature="e#2448#2622#0" expanded="false" />
+            <element signature="e#3158#3340#0" expanded="false" />
+            <element signature="e#3342#3479#0" expanded="false" />
+            <element signature="e#3708#3840#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Новая папка/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -335,18 +703,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/BG.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/BG.svg" />
     <entry file="file://$PROJECT_DIR$/public/wp-content/themes/bg1.svg" />
     <entry file="file://$PROJECT_DIR$/public/wp-content/themes/bg.svg" />
     <entry file="file://D:/Meral.us/software_meral_markup/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -354,34 +717,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/wp-content/themes/index.html" />
     <entry file="file://$PROJECT_DIR$/public/wp-content/themes/style.css" />
-    <entry file="file://D:/Новая папка/images/bg.svg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://D:/Новая папка/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="392" column="16" lean-forward="false" selection-start-line="392" selection-start-column="16" selection-end-line="392" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#g#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#1;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#3;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://D:/Новая папка/images/bg.svg" />
     <entry file="file://D:/Новая папка/images/background.svg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -389,7 +730,7 @@
     </entry>
     <entry file="file://D:/Новая папка/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
+        <state relative-caret-position="607">
           <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="131" selection-end-column="1" />
           <folding>
             <element signature="e#407#581#0" expanded="false" />
@@ -401,6 +742,24 @@
             <element signature="e#3158#3340#0" expanded="false" />
             <element signature="e#3342#3479#0" expanded="false" />
             <element signature="e#3708#3840#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Новая папка/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="128" lean-forward="false" selection-start-line="9" selection-start-column="128" selection-end-line="9" selection-end-column="128" />
+          <folding>
+            <element signature="n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#1;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#0;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#1;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#use#0;n#clipPath#0;n#g#0;n#g#0;n#g#3;n#g#0;n#g#2;n#svg#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

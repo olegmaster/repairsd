@@ -12,19 +12,86 @@ Text Domain: cherry
 */
 
 /*Header*/
+#header.fixhead {
+    z-index: 10;
+    box-shadow: 0px 6px 12px 0px rgba(50, 194, 234, 0.17);
+    background: url("http://repairsd.com/wp-content/uploads/2018/03/fixed-header.jpg");
+}
+#header{
+    left: 0;
+    right: 0;
+    position: fixed;
+    transition: all 0.4s ease;
+    z-index: 6;
+    margin-top: 25px;
+    height: 74px;
+    background-size: 100% 100%;
+}
+#header .header {
+    max-width: 1155px;
+    width: 100%;
+    margin: 0 auto;
+}
+#static-area-header-top {
+    float: left;
+}
+#static-area-header-bottom {
+    float: right;
+}
+#header .menu-primary li {
+    position: relative;
+}
+#header .menu-primary a {
+    font-family: "ProximaNova";
+    color: #17181a;
+    padding-right: 18px;
+}
+#header .menu-primary li:after {
+    position: absolute;
+    content: "/";
+    color: #17181a;
+    margin: auto;
+    top: 0; bottom: 0;
+    right: 0;
+}
 
 /*Hamurger menu*/
+#responsive-menu-container {
+    background: transparent !important;
+}
+.responsive-menu-inner {
+    right: 0;
+    width: 17px !important;
+    height: 2px !important;
+}
+.responsive-menu-inner:after {
+    width: 25px !important;
+    height: 2px !important;
+    right: 0;
+}
+.responsive-menu-inner:before {
+    width: 19px !important;
+    height: 2px !important;
+    right: 0;
+}
+
 .background {
     width: 100%;
     height: 745px;
     position: relative;
 }
+/*Background*/
 .background svg {
     position: absolute;
     width: 100%;
 }
-.background h1 {
 
+h1 {
+    font-family: "Fontion";
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    top: 27%;
 }
 
 /*Animation sea in svg picture*/
@@ -161,9 +228,118 @@ svg .st4:nth-child(11), svg .st4:nth-child(12) {
     }
 }
 
+/*FORM*/
+div.wpcf7 {
+    margin-top: -25px;
+}
+.wpcf7 form {
+    max-width: 1135px;
+    width: 100%;
+    margin: 0 auto;
+}
+.wpcf7 .forma {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.wpcf7 .forms {
+    z-index: 1;
+}
+.form-block {
+    background: #fff;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.07);
+    border-radius: 20px 20px 0 20px;
+    display: flex;
+    max-width: 950px;
+    z-index: 1;
+    padding: 16px 30px;
+    margin-bottom: 25px;
+}
+.form-block:last-of-type {
+    border-radius: 20px 0 20px 20px;
+    margin-bottom: 0;
+}
 
+.form-block label {
+    margin: 0;
+}
+.wpcf7 input,
+.wpcf7 select,
+.wpcf7 textarea {
+    border: none;
+    outline: none;
+    border-right: 1px solid #f0f3f4;
+    padding:10px 30px;
+    font: 14px/18px 'ProximaNova', sans-serif;
+    color: #abb9c2;
+    resize: none;
+}
 
+.wpcf7 input::placeholder,
+.wpcf7 select::placeholder,
+.wpcf7 textarea::placeholder {
+    font: 14px/18px 'ProximaNova', sans-serif;
+    color: #abb9c2;
+}
+.wpcf7 .app-type,
+.wpcf7 .adress {
+    padding-left: 0;
+}
+.wpcf7 .name,
+.wpcf7 .problem {
+    border-right: none;
 
+}
+.wpcf7 p {
+    width: 165px;
+    height: 65px;
+    z-index: 1;
+    position: relative;
+    background-color: #32c2ea;
+    box-shadow: 0px 11px 9px 0px rgba(0, 0, 0, 0.02);
+    border-radius: 10px;
+}
+.wpcf7 input[type=submit] {
+    background: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 23.5px 43px;
+}
+.wpcf7 p:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 14px;
+    background-size: cover;
+    background-image:
+            radial-gradient(circle at 80px -186px, #0197d6 200px, transparent 13px)
+}
+/*Form hover*/
+.wpcf7 label input:hover::placeholder,
+.wpcf7 label input:focus::placeholder,
+.wpcf7 label select:hover,
+.wpcf7 label select:focus,
+.wpcf7 label textarea:hover::placeholder,
+.wpcf7 label textarea:focus::placeholder
+ {
+    color: #0197d6;
+}
+/*.wpcf7 p:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-repeat: repeat;
+    height: 15px;
+    background-size: 40px 20px;
+    background-image: radial-gradient(circle at 10px 15px, #19d1ff 12px, transparent 13px);
+}*/
+/*
+            radial-gradient(circle at 100% 50%, red 20%, red 23%, red 34%, transparent 35%, transparent),
+            radial-gradient(circle at 0% 50%, transparent 20%, red 21%, red 34%, transparent 35%, transparent) 0 -50px*/
 
 
 
@@ -251,101 +427,7 @@ h2 span {
     border-radius: 50px;
 }
 
-/*Header*/
 
-
-#header.fixhead {
-    background: url("./images/fix.png") no-repeat;
-    background-size: cover;
-    z-index: 8;
-}
-#header.fixhead h1 {
-    margin-top: 10px;
-}
-#header.fixhead h2 {
-    margin-top: 10px;
-}
-#header.fixhead img {
-    height: 50px;
-}
-#header{
-    left: 0;
-    right: 0;
-    position: fixed;
-    background: transparent;
-    -webkit-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    z-index: 6;
-}
-.blog #header {
-    z-index: 3;
-}
-#static-area-header-top .container {
-    margin-left: 0;
-    padding-left: 0;
-}
-#static-area-header-bottom .container {
-    margin-right: 0;
-    padding-left: 0;
-    margin-top: 5px;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    height: 100%;
-}
-#header:after, #header:before {
-    display: none;
-}
-
-#header img {
-    width: auto;
-    max-width: none;
-}
-#header a {
-    text-decoration: none;
-    text-transform: capitalize;
-    color: #fff;
-    position: relative;
-    font: 14px/18px 'Quicksand-Regular', sans-serif;
-}
-#header nav {
-    min-width: 447px;
-}
-#header nav a:hover:before {
-    position: absolute;
-    content: '';
-    color: #31d78f;
-    background: url("./images/sprites.png") -44px -171px no-repeat;
-    height: 7px;
-    width: 7px;
-    top: -5px;
-    right: 0;
-}
-#header nav li:last-of-type a:hover:before {
-    display: none;
-}
-#header nav a:active, #header a:hover, #header a:focus {
-    color: #31d78f;
-}
-#header nav button {
-    background: transparent;
-    border: none;
-    position: relative;
-    box-shadow: none;
-    font: 13px/15px "Roboto-Regular", sans-serif;
-    outline: none;
-    float: right;
-    text-transform: uppercase;
-    padding: 10px 20px;
-}
-#header nav button:hover,
-#header nav button:focus {
-    background: rgba(63, 166, 233, 0.2);
-}
 
 /*First block*/
 
@@ -406,173 +488,7 @@ h2 span {
     height: 100%;
 }
 
-/*Form*/
 
-#head .wpcf7 {
-    margin-top: 100px;
-}
-.wpcf7 i {
-    color: red;
-    border: none;
-}
-.wpcf7 h3 {
-    font: 20px/22px 'Bender', sans-serif;
-    color: #3cadf3;
-    text-align: center;
-    margin: 0 0 10px;
-}
-.wpcf7 h4 {
-    color: #404040;
-    font: 14px/18px 'Roboto-Light', sans-serif;
-    text-align: center;
-    margin: 0 0 20px;
-}
-.wpcf7 p {
-    color: #535353;
-    font: 12px/18px 'Roboto-Light', sans-serif;
-    margin: 0;
-}
-
-.wpcf7 form {
-    background: url("http://ocrepairs.com/wp-content/uploads/2018/01/Form-but.png") 0 0 no-repeat;
-    background-size: 100% 100%;
-    border-radius: 40px;
-    padding: 25px;
-    max-width: 490px;
-    color: #535353;
-    float: right;
-    width: 100%;
-    box-shadow: -1.805px 2.396px 17px 0px rgba(60, 173, 243, 0.2);
-    min-height: 630px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    z-index: 10;
-    min-width: 320px;
-}
-.wpcf7 .form {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
-}
-.wpcf7 .form1 {
-    padding: 0 15px 0 0;
-}
-.wpcf7 .form1:last-of-type {
-    padding: 0  0 0 15px;
-}
-.wpcf7 .text {
-    padding: 5px;
-}
-.wpcf7 .text-margin {
-    margin-bottom: 12px;
-}
-.wpcf7 .textarea-margin  {
-    margin-bottom: 20px;
-}
-.wpcf7 .point {
-    position: relative;
-}
-.wpcf7 .point:hover input {
-    border-bottom: 1px solid #5fc946;
-}
-.wpcf7 .point:hover:before {
-    position: absolute;
-    content: '';
-    right: 0;
-    top: 0;
-    border-radius: 50%;
-    width: 5px;
-    height: 5px;
-    background: #5fc946;
-}
-.wpcf7 .form input, .wpcf7 .form select, .wpcf7 textarea {
-    background: transparent;
-    padding: 5px 20px;
-    max-width: 200px;
-    width: 100%;
-    color: #000;
-    border: 1px solid #ededed;
-    cursor: pointer;
-    text-transform: capitalize;
-    border-radius: 20px;
-    outline: none;
-}
-.wpcf7 .form input {
-    border-radius: 0;
-    border: none;
-    border-bottom: 1px solid #ededed;
-}
-.wpcf7 .form input[type=number]::-webkit-inner-spin-button,
-.wpcf7 .form input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-.wpcf7 input[type="submit"] {
-    margin: 0;
-    background-image: -moz-linear-gradient( -175deg, rgb(49,179,239) 0%, rgb(41,194,191) 100%);
-    background-image: -webkit-linear-gradient( -175deg, rgb(49,179,239) 0%, rgb(41,194,191) 100%);
-    background-image: -ms-linear-gradient( -175deg, rgb(49,179,239) 0%, rgb(41,194,191) 100%);
-    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.2);
-    color: #f9feff;
-    border: none;
-    border-radius: 50px;
-    padding: 12px 43px;
-    font: 13px/18px "Roboto-Regular", sans-serif;
-    outline: none;
-    text-transform: uppercase;
-}
-.wpcf7 input[type="submit"]:hover {
-    background-image: -webkit-linear-gradient( -175deg, rgb(42,184,112) 0%, rgb(41,194,191) 100%);
-    background-image: -ms-linear-gradient( -175deg, rgb(42,184,112) 0%, rgb(41,194,191) 100%);
-}
-.wpcf7 textarea {
-    resize: none;
-    max-width: none;
-}
-
-.wpcf7-response-output {
-    width: 240px;
-    height: 245px;
-    background: url(./images/form-complete.png);
-    background-size: 100% 100%;
-    text-align: center;
-    padding: 130px 30px 30px !important;
-    border: none !important;
-    border-radius: 26px;
-    box-shadow: -1.805px 2.396px 17px 0px rgba(60, 173, 243, 0.2);
-    z-index: 4;
-    font: 13px/18px 'Roboto-Regular', sans-serif;
-    color: #535353;
-    margin: 0 !important;
-    position: absolute;
-    top: 48%;
-    left: 37%;
-    opacity: 0;
-}
-.wpcf7-response-output:after {
-    position: absolute;
-    content: '';
-    background: url(./images/sprites.png) -166px -190px no-repeat;
-    top: -29px;
-    left: 36%;
-    right: 0;
-    width: 65px;
-    height: 65px;
-}
-.wpcf7-response-output:before {
-    position: absolute;
-    content: 'Request Sent';
-    top: 70px;
-    left: 27%;
-    color: #2b2e3f;
-    font: 18px/20px 'Bender', sans-serif;
-}
-.date img {
-    width: 17px;
-    height: 16px;
-    background-position: -58px -171px;
-}
 
 /*BLOCK*/
 

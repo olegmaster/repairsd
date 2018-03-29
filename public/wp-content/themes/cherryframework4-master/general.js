@@ -1,12 +1,33 @@
-/*----------------Smooth Scroll----------------*/
-jQuery(function() {
-    // Default
-    jQuery.scrollSpeed(100, 800);
+/*Header*/
+jQuery(window).scroll(function() {
+    if (jQuery(this).scrollTop() > 1){
+        jQuery('header').addClass("fixhead");
+        jQuery('header').css({"margin-top":"0"});
+        jQuery('button#responsive-menu-button').css({"top":"42"});
+    }
+    else{
+        jQuery('header').removeClass("fixhead");
+        jQuery('header').css({"margin-top":"25px"});
+        jQuery('button#responsive-menu-button').css({"top":"60"});
+    }
+});
 
-    // Custom Easing
-    jQuery.scrollSpeed(100, 800, 'easeOutCubic');
-})
+jQuery(document).ready(function () {
 
+    var div = jQuery('<div/>');
+    jQuery('.site-header').append(
+       div.append(
+            jQuery('#static-area-header-top'),
+            jQuery('#static-area-header-bottom')
+        )
+    );
+    div.addClass("header");
+
+
+
+});
+
+/*
 jQuery(document).ready(function () {
        jQuery('#repair .type .motopress-button-inner-obj a.motopress-btn').bind('click', function(event){
         jQuery('#repair .type .motopress-button-inner-obj a.motopress-btn').removeClass('cheked');
@@ -45,17 +66,8 @@ jQuery( ".info .motopress-button-group-inner-wrapper" ).append( "<span></span>" 
 jQuery(".info .motopress-button-group-inner-wrapper span").addClass("ajax-loader");
 //jQuery("#static-area-header-top, ").wrapAll("<div class='new'></div>");
 
-/*Header*/
 
-jQuery('.site-header').append(
-    jQuery('<div/>').append(
-        jQuery('#static-area-header-top'),
-        jQuery('#static-area-header-bottom'),
 
-    )
-)
-
-jQuery("#header div").addClass("header");
 
 jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > 1){
@@ -71,9 +83,9 @@ jQuery(document.body).on("click",".block .motopress-button-wrap a",function () {
 
     jQuery('p:last', parent).slideToggle("slow", function() {
     });
-    /*parent.css({
+    /!*parent.css({
         'height':'320px'
-    })*/
+    })*!/
 
     if (parent.hasClass('block-hover')) {
         jQuery(this).text('READ MORE');
@@ -95,7 +107,7 @@ jQuery(document).ready(function(){
     });
 });
 
-/*Slider Types*/
+/!*Slider Types*!/
 jQuery('#rewievs .testimonial-name').prepend('<div>');
 jQuery('#rewievs .testimonial-client').prepend('<a target="_self" href="javascript:void(0)" class="motopress-btn">BOOK NOW</a>');
 jQuery('.strong-view-id-2 .testimonial-inner').append('<img src="http://ocrepairs.com/wp-content/uploads/2018/01/border-test.png"">');
@@ -110,11 +122,11 @@ jQuery("#rewievs .testimonial-client a").on("click",function () {
     }
 });
 
-/*Big Testimonials*/
+/!*Big Testimonials*!/
 jQuery(".strong-view .prev").removeClass("page-numbers");
 jQuery(".strong-view .next").removeClass("page-numbers");
 
-/*Form Testimonials*/
+/!*Form Testimonials*!/
 
 jQuery('.review-form .field-featured_image').append('<input type="text" id="test-text" placeholder="Drag files to upload">');
 jQuery('.review-form .field-featured_image').append('<input type="button" value="Choose File" id="test-button">');
@@ -144,7 +156,7 @@ jQuery('#wpmtst-form .field-client_name').attr('maxlength', '35');
 jQuery('#wpmtst-form .field-post_title').attr('maxlength', '35');
 jQuery('#wpmtst-form .field-post_content').attr('maxlength', '350');
 
-/*-------------New Rewievs--------------*/
+/!*-------------New Rewievs--------------*!/
 
 jQuery(".review-button a").click(function () {
     if (jQuery("#reviews-big .review-form").hasClass("active-nst")){
@@ -173,7 +185,7 @@ jQuery('#reviews-big .review-form').append('<div class="dark-bg"></div>');
 //map
 
 
-/*BLOG*/
+/!*BLOG*!/
 jQuery(".blog .content-area").prepend(jQuery("<div class=\"blog-head\">\n" +
     "<div class=\"articles-us\">\n" +
     "<div class=\"contact-us\">\n" +
@@ -244,7 +256,7 @@ var a = undefined;
 
 jQuery('.single-post article').append(
     jQuery('<div class="article-single"></div>').append(
-        /*jQuery('.single-post article figure'),*/
+        /!*jQuery('.single-post article figure'),*!/
         jQuery('.single-post article .entry-meta-top'),
         jQuery('.single-post article .entry-content'),
         jQuery('.single-post article .entry-meta-bottom')
@@ -255,7 +267,7 @@ jQuery('.single-post article .article-single .entry-meta-top').prepend(jQuery('.
 
 jQuery('.single-post article .entry-content p:first-of-type').prepend(jQuery('.single-post article figure'));
 
-/*---------Terms of Services----------*/
+/!*---------Terms of Services----------*!/
 
 jQuery("a[class=tos-fot]").on("click",function () {
     if (jQuery("#tos").hasClass("active-nst")){
@@ -281,7 +293,7 @@ jQuery(document.body).on("click",".dark-bg",function () {
 
 jQuery('#tos').append('<div class="dark-bg"></div>');
 
-/*---------FAQ----------*/
+/!*---------FAQ----------*!/
 
 jQuery('.page-id-2914 #faq .faq-but .motopress-btn').attr('href', 'tel:1-888-884-8848');
 
@@ -310,3 +322,4 @@ jQuery(document.body).on("click",".dark-bg",function () {
 jQuery('#faq').append('<div class="dark-bg"></div>');
 
 
+*/
