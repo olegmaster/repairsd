@@ -3,12 +3,10 @@ jQuery(window).scroll(function() {
     if (jQuery(this).scrollTop() > 1){
         jQuery('header').addClass("fixhead");
         jQuery('header').css({"margin-top":"0"});
-        jQuery('button#responsive-menu-button').css({"top":"42"});
     }
     else{
         jQuery('header').removeClass("fixhead");
         jQuery('header').css({"margin-top":"25px"});
-        jQuery('button#responsive-menu-button').css({"top":"60"});
     }
 });
 
@@ -22,10 +20,33 @@ jQuery(document).ready(function () {
         )
     );
     div.addClass("header");
-
-
+    jQuery('#static-area-header-bottom').append(jQuery('#responsive-menu-button'));
+    jQuery('#static-area-header-bottom').append(jQuery('#responsive-menu-container'));
 
 });
+
+/*What Clients Say*/
+jQuery('.slick').slick({
+    dots: true,
+    infinite: true,
+    speed: 1000,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 2000
+});
+jQuery('.slick-prev').appendTo('.slick');
+jQuery('.slick-next').appendTo('.slick');
+
+
+
+
+
+
+
+
+
+
 
 /*
 jQuery(document).ready(function () {

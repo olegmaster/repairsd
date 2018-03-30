@@ -12,6 +12,7 @@
 
         <?php wp_head(); ?>
 
+        <link rel="stylesheet" type="text/css" href="http://repairsd.com/wp-content/themes/cherryframework4-master/fonts.css">
         <link rel="stylesheet" type="text/css" href="http://repairsd.com/wp-content/themes/cherryframework4-master/hamburgers.css">
 
         <?php echo get_post_meta($post->ID, 'googleapis', true); ?>

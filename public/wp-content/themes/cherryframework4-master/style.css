@@ -10,6 +10,30 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags:        fixed-layout, fluid-layout, responsive-layout, left-sidebar, right-sidebar, custom-menu, featured-images, full-width-template, post-formats, sticky-post, theme-options, translation-ready
 Text Domain: cherry
 */
+h1 {
+    font: 50px/50px 'Fontin-Regular', sans-serif !important;
+    position: absolute;
+    margin: auto;
+    left: 0; right: 0;
+    top: 27%;
+}
+h2 {
+    font: 30px/32px 'Fontin-Regular', sans-serif !important;
+    color: #243647;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+h2:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    left: -20px;
+    bottom: 0;
+    background: url("./images/sprites.png") 0 0 no-repeat;
+    z-index: -1;
+}
 
 /*Header*/
 #header.fixhead {
@@ -37,12 +61,13 @@ Text Domain: cherry
 }
 #static-area-header-bottom {
     float: right;
+    display: flex;
 }
 #header .menu-primary li {
     position: relative;
 }
 #header .menu-primary a {
-    font-family: "ProximaNova";
+    font-family: "ProximaNova-Regular";
     color: #17181a;
     padding-right: 18px;
 }
@@ -56,8 +81,14 @@ Text Domain: cherry
 }
 
 /*Hamurger menu*/
+#responsive-menu-button {
+    position: relative !important;
+    top: auto !important;
+    right: auto !important;
+}
 #responsive-menu-container {
     background: transparent !important;
+
 }
 .responsive-menu-inner {
     right: 0;
@@ -74,24 +105,12 @@ Text Domain: cherry
     height: 2px !important;
     right: 0;
 }
-
+/*background SVG*/
 .background {
-    width: 100%;
-    height: 745px;
-    position: relative;
+    margin-bottom: -125px;
 }
-/*Background*/
-.background svg {
-    position: absolute;
-    width: 100%;
-}
-
-h1 {
-    font-family: "Fontion";
-    position: absolute;
-    margin: auto;
-    left: 0; right: 0;
-    top: 27%;
+.background .st0 {
+    fill: #fff;
 }
 
 /*Animation sea in svg picture*/
@@ -179,8 +198,8 @@ h1 {
 }
 
 /*Anmition clouds in svg picture*/
-svg .st4:nth-child(7), svg .st4:nth-child(8),
-svg .st4:nth-child(9), svg .st4:nth-child(10) {
+.background svg .st4:nth-child(7), .background svg .st4:nth-child(8),
+.background svg .st4:nth-child(9), .background svg .st4:nth-child(10) {
     animation-name: back-cloud-move;
     animation-duration: 30s;
     animation-iteration-count: infinite;
@@ -197,7 +216,7 @@ svg .st4:nth-child(9), svg .st4:nth-child(10) {
     }
 }
 
-svg .st4:nth-child(11), svg .st4:nth-child(12) {
+.background svg .st4:nth-child(11), .background svg .st4:nth-child(12) {
     animation-name: cloud-move;
     animation-duration: 50s;
     animation-iteration-count: infinite;
@@ -229,9 +248,6 @@ svg .st4:nth-child(11), svg .st4:nth-child(12) {
 }
 
 /*FORM*/
-div.wpcf7 {
-    margin-top: -25px;
-}
 .wpcf7 form {
     max-width: 1135px;
     width: 100%;
@@ -254,6 +270,7 @@ div.wpcf7 {
     z-index: 1;
     padding: 16px 30px;
     margin-bottom: 25px;
+    overflow: hidden;
 }
 .form-block:last-of-type {
     border-radius: 20px 0 20px 20px;
@@ -262,6 +279,23 @@ div.wpcf7 {
 
 .form-block label {
     margin: 0;
+    position: relative;
+}
+.form-block label:after {
+    position: absolute;
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: #0197d6;
+    margin: auto;
+    top: -19px;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.form-block label:hover:after {
+    display: block;
 }
 .wpcf7 input,
 .wpcf7 select,
@@ -270,15 +304,18 @@ div.wpcf7 {
     outline: none;
     border-right: 1px solid #f0f3f4;
     padding:10px 30px;
-    font: 14px/18px 'ProximaNova', sans-serif;
+    font: 14px/18px 'ProximaNova-Regular', sans-serif;
     color: #abb9c2;
     resize: none;
+    text-transform: capitalize;
 }
-
+.wpcf7 input {
+    color: #abb9c2 !important;
+}
 .wpcf7 input::placeholder,
 .wpcf7 select::placeholder,
 .wpcf7 textarea::placeholder {
-    font: 14px/18px 'ProximaNova', sans-serif;
+    font: 14px/18px 'ProximaNova-Regular', sans-serif;
     color: #abb9c2;
 }
 .wpcf7 .app-type,
@@ -288,7 +325,6 @@ div.wpcf7 {
 .wpcf7 .name,
 .wpcf7 .problem {
     border-right: none;
-
 }
 .wpcf7 p {
     width: 165px;
@@ -301,7 +337,7 @@ div.wpcf7 {
 }
 .wpcf7 input[type=submit] {
     background: transparent;
-    color: #fff;
+    color: #fff !important;
     text-transform: uppercase;
     padding: 23.5px 43px;
 }
@@ -340,6 +376,311 @@ div.wpcf7 {
 /*
             radial-gradient(circle at 100% 50%, red 20%, red 23%, red 34%, transparent 35%, transparent),
             radial-gradient(circle at 0% 50%, transparent 20%, red 21%, red 34%, transparent 35%, transparent) 0 -50px*/
+
+
+/*Services We Provide*/
+#services-we-provide {
+    background: url("http://repairsd.com/wp-content/uploads/2018/03/services.png") 100% no-repeat;
+    height: 590px;
+}
+.services-we-provide {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.services-info {
+    position: relative;
+    padding: 0 0 20px 130px;
+    max-width: 435px;
+}
+.services-info:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 273px;
+    background: #57b7ed;
+    left: 0;
+    bottom: 0;
+}
+.services-we-provide h2 {
+    text-align: left;
+}
+.services-we-provide p {
+    text-align: left;
+    color: #949494;
+    font: 14px/25px 'ProximaNova-Regular', sans-serif;
+}
+
+
+/*Applience Type*/
+#applience-type {
+    background: url("http://repairsd.com/wp-content/uploads/2018/03/applience-type.png") 50% 50% no-repeat;
+    height: 705px;
+    margin-bottom: 50px;
+}
+#applience-type p {
+    display: none;
+}
+#applience-type h2{
+    padding-top: 95px;
+    max-width: 202px;
+    width: 100%;
+    margin: 0 auto;
+}
+.applience-type {
+    min-height: 435px;
+    max-width: 735px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+#applience-type h3 {
+    font: 16px/18px 'ProximaNova-Regular', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+/*Refrigerator*/
+#applience-type .type {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+}
+#applience-type .type-ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 98px;
+    height: 105px;
+}
+#applience-type .type-ico:before {
+     position: absolute;
+     content: "";
+     margin: auto;
+     top: 0; bottom: 0;
+     left: -4px; right: 0;
+     width: 78px;
+     height: 85px;
+     background: url("./images/sprites.png") 0 -179px no-repeat;
+     z-index: 1;
+ }
+#applience-type .type-ico:after {
+    position: absolute;
+    content: "";
+    width: 98px;
+    height: 105px;
+    margin: auto;
+    top: 14px; bottom: 0;
+    left: 0; right: 0;
+    background: url("./images/sprites.png") 0 -71px no-repeat;
+    z-index: 2;
+}
+#applience-type svg {
+    width: 26px;
+    height: 42px;
+    z-index: 3;
+}
+/*AC and Heating*/
+#applience-type button:nth-of-type(2) {
+    left: 48%;
+    right: 48%;
+    top: 80px;
+}
+#applience-type .type:nth-of-type(2) .type-ico {
+    width: 103px;
+    height: 110px;
+}
+#applience-type .type:nth-of-type(2) .type-ico:before {
+    width: 83px;
+    height: 87px;
+    background-position:-78px -182px;
+    top: -7px;
+    left: -5px;
+}
+#applience-type .type:nth-of-type(2) .type-ico:after {
+    width: 103px;
+    height: 110px;
+    background-position:-98px -71px;
+    left: 7px;
+    top: 12px;
+}
+#applience-type .type:nth-of-type(2) svg {
+    width: 47px;
+    height: 34px;
+}
+
+/*Washer*/
+#applience-type button:nth-of-type(3) {
+    top: 50px;
+    left: 80%;
+}
+#applience-type .type:nth-of-type(3) .type-ico {
+    width: 102px;
+    height: 111px;
+}
+#applience-type .type:nth-of-type(3) .type-ico:before {
+    width: 74px;
+    height: 105px;
+    background-position:-161px -182px;
+    top: 19px;
+}
+#applience-type .type:nth-of-type(3) .type-ico:after {
+    width: 102px;
+    height: 111px;
+    background-position: -201px -70px;
+    left: 11px;
+    top: 16px;
+}
+#applience-type .type:nth-of-type(3) svg {
+    width: 33px;
+    height: 41px;
+}
+#applience-type .type:nth-of-type(4),
+#applience-type .type:nth-of-type(5),
+#applience-type .type:nth-of-type(6),
+#applience-type .type:nth-of-type(7),
+#applience-type .type:nth-of-type(8),
+#applience-type .type:nth-of-type(9) {
+    display: none;
+}
+
+/*Our Statistic*/
+#our-statistic {
+    background: url("http://repairsd.com/wp-content/uploads/2018/03/our-statistic.png") 0 no-repeat;
+    height: 520px;
+    margin-bottom: 50px;
+}
+.our-statistic {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+.statistic-info {
+    position: relative;
+    padding: 0 130px 20px 0;
+    max-width: 435px;
+}
+.statistic-info:after {
+    position: absolute;
+    content: "";
+    height: 3px;
+    width: 273px;
+    background: #57b7ed;
+    right: 0;
+    bottom: 0;
+}
+.statistic-info h2 {
+    text-align: right;
+    width: 268px;
+    margin-left: auto;
+}
+.statistic-info p {
+    text-align: right;
+    color: #949494;
+    font: 14px/25px 'ProximaNova-Regular', sans-serif;
+}
+
+/*What Clients Say*/
+#what-clients-say {
+    height: 480px;
+    margin-bottom: 50px;
+}
+.what-clients-say {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+}
+.what-clients-say h2 {
+    width: 226px;
+    margin: 0 auto;
+}
+#what-clients-say .rewievs {
+    background: url("http://repairsd.com/wp-content/uploads/2018/03/what-clients-say.png") 50% 50% no-repeat;
+    height: 480px;
+}
+
+
+/*Footer*/
+#footer {
+    height: 490px;
+    background-size: 100% auto;
+    display: flex;
+    align-items: flex-end;
+}
+#static-area-footer-bottom {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+#footer h3 {
+    color: #eeeff1;
+    font: 16px/18px 'ProximaNova-Bold', sans-serif;
+    text-transform: uppercase;
+    margin: 0 0 35px;
+}
+#footer p {
+    color: #eeeff1;
+    font: 14px/25px 'ProximaNova-Regular', sans-serif;
+}
+.footer ul {
+    padding-left: 0;
+}
+.footer ul li {
+    list-style: none;
+}
+.footer ul li a,
+.footer ul li a:hover,
+.footer ul li a:focus {
+    color: #eeeff1;
+    font: 16px/18px 'ProximaNova-Regular', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.footer .foot-soc li {
+    display: inline-block;
+}
+.footer .foot-soc a {
+    display: block;
+}
+.footer .foot-text {
+    text-align: right;
+}
+.cherry-footer-logo a {
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -490,7 +831,8 @@ h2 span {
 
 
 
-/*BLOCK*/
+/*
+!*BLOCK*!
 
 .blocks {
     max-width: 1140px;
@@ -569,7 +911,7 @@ h2 span {
     cursor: default;
 }
 
-/*BLOCKS SLIDER MOBILE*/
+!*BLOCKS SLIDER MOBILE*!
 #blocks .slick-track {
     top: 22px;
     left: -4px;
@@ -612,7 +954,7 @@ h2 span {
     height: 16px;
 }
 
-/*Applience type*/
+!*Applience type*!
 
 #type {
     background-size: 100% 100%;
@@ -733,7 +1075,7 @@ h2 span {
             no-repeat;
     background-size:100% 1px ;
 }
-/*Statistic*/
+!*Statistic*!
 
 #stat h2 {
     font: 23px/25px "Bender", sans-serif;
@@ -804,7 +1146,7 @@ h2 span {
     padding-left: 15px;
 }
 
-/*REVIEWS*/
+!*REVIEWS*!
 
 .reviews {
     height: 521px;
@@ -932,7 +1274,7 @@ h2 span {
     display: none;
 }
 
-/*terms of servisec*/
+!*terms of servisec*!
 #tos {
     display: none;
     position: fixed;
@@ -1053,7 +1395,7 @@ h2 span {
     border-radius: 4px 1px;
 }
 
-/*-------------------FAQ-------------------*/
+!*-------------------FAQ-------------------*!
 
 #faq {
     display: none;
@@ -1285,7 +1627,7 @@ h2 span {
     top: 43%;
 }
 
-/*-----------------FORM FOOTER---------------*/
+!*-----------------FORM FOOTER---------------*!
 
 #form-button {
     display: none;
@@ -1334,7 +1676,7 @@ h2 span {
 }
 
 
-/*BUY NOW*/
+!*BUY NOW*!
 
 #buynow .motopress-btn {
     background: rgba(63, 166, 233, 0.21);
@@ -1364,100 +1706,9 @@ h2 span {
     padding: 24px;
 }
 
-/*FOOTER*/
 
-#footer {
-    height: 273px;
 
-}
-#footer .static-footer-info {
-    width: 100%;
-    padding: 0;
-}
-.site-info {
-    background: url(http://ocrepairs.com/wp-content/uploads/2017/12/Footer.png) 0 0 no-repeat;
-    background-size: 100% 100%;
-    min-height: 273px;
-    height: 100%;
-}
-.site-info-2 {
-    display: flex;
-    padding-top: 30px;
-    max-width: 1050px;
-    margin: auto;
-    height: 100%;
-    flex-wrap: wrap;
-}
-.site-info-2 div {
-    max-height: 223px;
-    padding: 0 15px;
-    width: 25%;
-    min-width: 195px;
-}
-.site-info-2 h5 {
-    color: #2b2e3f;
-    text-transform: uppercase;
-    font: bold 13px/18px 'Roboto-Bold', sans-serif;
-}
-.site-info-2 p {
-    font: 13px/18px "Roboto-Light", sans-serif;
-    color: #2b2e3f;
-}
-
-.site-info-2 dl {
-    margin: 0;
-}
-.site-info-2 dt, .site-info dd {
-    display: inline-block;
-    font: 13px/18px 'Roboto-Light', sans-serif;
-    color: #2b2e3f;
-}
-.site-info-2 dd {
-    font-family: Roboto-Bold;
-}
-.site-info-2 dd a, .site-info-2 dd a:active, .site-info-2 dd a:focus, .site-info-2 dd a:hover {
-    color: #2b2e3f;
-    text-decoration: none;
-    font:bold 13px/18px 'Roboto-Bold', sans-serif;
-}
-.site-info-2 dl:nth-child(4) a {
-    color: #3fa6e9;
-}
-.site-info-2 ul {
-    padding: 0;
-}
-.site-info-2 ul li a, .site-info-2 ul li a:hover, .site-info-2 ul li a:active, .site-info-2 ul li a:focus {
-    font:13px/18px 'Roboto-Light', sans-serif;
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-.site-info-2 ul li {
-    list-style-type: none;
-}
-.site-info-2 .icons {
-    width: 29px;
-    height: 29px;
-    background-position: 0 -141px;
-    display: inline-block;
-    margin: 0 10px;
-}
-.site-info-2 .icons:nth-child(2) {
-    background-position: -29px -141px;
-}
-.site-info-2 .icons:nth-child(3) {
-    background-position: -58px -141px;
-}
-.site-info-2 .icons:last-of-type {
-    background-position: -87px -141px;
-}
-.site-info-2 .icons a {
-    width: 100%;
-    height: 100%;
-    display: block;
-}
-
-/*-------COUPON--------*/
+!*-------COUPON--------*!
 
 #coupon {
     display: none;
@@ -1573,9 +1824,9 @@ h2 span {
     height: 10px;
 }
 
-/*APPLIENCE REPAIR*/
+!*APPLIENCE REPAIR*!
 
-/*Очередность формы*/
+!*Очередность формы*!
 
 #applience {
     height: 229px;
@@ -1682,7 +1933,7 @@ h2 span {
     content: '4';
 }
 
-/*Applience Repair - Type*/
+!*Applience Repair - Type*!
 
 #repair {
     max-width: 1400px;
@@ -1726,7 +1977,7 @@ h2 span {
     left: 40%;
 }
 
-/*CHEKED*/
+!*CHEKED*!
 
 #repair .type .motopress-button-group-inner-wrapper .motopress-button-inner-obj:after .cheked {
     opacity: 0.2;
@@ -1752,7 +2003,7 @@ h2 span {
     filter: sepia() saturate(1000%) hue-rotate(50deg);
 }
 
-/*Applience Repair - Brands*/
+!*Applience Repair - Brands*!
 
 #wpsisac-slick-slider-1 .slick-slide {
     width: 8%;
@@ -1763,7 +2014,7 @@ h2 span {
     line-height: 100px;
 }
 
-/*Applience Repair - Form*/
+!*Applience Repair - Form*!
 
 .req-form p,
 .req-form .wpcf7 input::placeholder,
@@ -1875,11 +2126,11 @@ h2 span {
     margin: 19px;
 }
 
-/*Applience Repair - Complete*/
+!*Applience Repair - Complete*!
 
 #repair .complete {
     height: 300px;
-    /*display: flex;*/
+    !*display: flex;*!
     display: none;
     flex-direction: column;
     justify-content: flex-end;
@@ -1912,7 +2163,7 @@ h2 span {
     width: 350px;
 }
 
-/*INFO*/
+!*INFO*!
 
 .info {
     margin: 65px 0 25px 0;
@@ -1960,7 +2211,7 @@ h2 span {
     z-index: 100;
 }
 
-/*DATE AND TIME PICKER*/
+!*DATE AND TIME PICKER*!
 
 #ui-datepicker-div {
     position: relative;
@@ -2117,7 +2368,7 @@ h2 span {
     border-radius: 50px;
 }
 
-/*-------Page of types--------*/
+!*-------Page of types--------*!
 
 #page-type {
     height: 708px;
@@ -2432,7 +2683,7 @@ h2 span {
     padding: 12px 32px;
 }
 
-/*---loader style---*/
+!*---loader style---*!
 .loader {
     display: inline-block;
     position: absolute;
@@ -2443,12 +2694,12 @@ h2 span {
     border-top: 6px solid #3498db;
     width: 30px;
     height: 30px;
-    -webkit-animation: spin 2s linear infinite; /* Safari */
+    -webkit-animation: spin 2s linear infinite; !* Safari *!
     animation: spin 2s linear infinite;
 
 }
 
-/* Safari */
+!* Safari *!
 @-webkit-keyframes spin {
     0% { -webkit-transform: rotate(0deg); }
     100% { -webkit-transform: rotate(360deg); }
@@ -2458,9 +2709,9 @@ h2 span {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-/*---end loader---*/
+!*---end loader---*!
 
-/*---state of buttons and blocks before loaded---*/
+!*---state of buttons and blocks before loaded---*!
 
 .block_brand_to_repair{
     display: none;
@@ -2800,7 +3051,7 @@ h2 span {
 
 }
 
-/*Arrows slider testimonials*/
+!*Arrows slider testimonials*!
 #reviews-big .strong-view .prev,
 #reviews-big .strong-view .next {
     text-indent:-99999px;
@@ -2858,7 +3109,7 @@ h2 span {
     width: 7px;
 }
 
-/*Dots slider testimonials*/
+!*Dots slider testimonials*!
 #reviews-big .strong-view .page-numbers{
     background: url(./images/dots.png) center center no-repeat !important;
     width: 54px;
@@ -2879,7 +3130,7 @@ h2 span {
     color: #00ffff !important;
 }
 
-/*Reviews button + form*/
+!*Reviews button + form*!
 #reviews-big .review-button {
     margin: 0;
 }
@@ -3146,7 +3397,7 @@ h2 span {
     height: 100%;
     opacity: 0;
     filter: alpha(opacity=0);
-    zoom: 1;  /* Fix for IE7 */
+    zoom: 1;  !* Fix for IE7 *!
     position: absolute;
     top: 0;
     left: 0;
@@ -3182,7 +3433,7 @@ h2 span {
     left: 52px;
 }
 
-/*---------------CONTACT----------------*/
+!*---------------CONTACT----------------*!
 
 #contact-top {
     height: 736px;
@@ -3492,7 +3743,7 @@ h2 span {
     display: none;
 }
 
-/*----------------ARTECLE--------------------*/
+!*----------------ARTECLE--------------------*!
 
 .contact-top {
     height: 736px;
@@ -3699,7 +3950,7 @@ h2 span {
     background: url(./images/sprites.png) -104px -432px no-repeat;
 }
 
-/*--------------------------BLOG---------------------------*/
+!*--------------------------BLOG---------------------------*!
 
 .blog .blog-head,
 .tag .blog-head {
@@ -4074,7 +4325,7 @@ h2 span {
     left: 20px;
 }
 
-/*---Paginations blog---*/
+!*---Paginations blog---*!
 .blog .site-main .navigation,
 .tag .site-main .navigation {
     margin-top: 20px;
@@ -4133,7 +4384,7 @@ h2 span {
 }
 
 
-/*----------------404--------------*/
+!*----------------404--------------*!
 
 .error404 #header {
     background: url("./images/fix.png") no-repeat;
@@ -4192,4 +4443,4 @@ h2 span {
 #error404 .error404 a:hover {
     background-image: -webkit-linear-gradient( -175deg, rgb(42,184,112) 0%, rgb(41,194,191) 100%);
     background-image: -ms-linear-gradient( -175deg, rgb(42,184,112) 0%, rgb(41,194,191) 100%);
-}
+}*/
