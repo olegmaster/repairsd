@@ -41,7 +41,7 @@ return [
     |
     */
 
-    'url' => 'repairsd.local',
+    'url' => 'http://localhost',
 
     /*
     |--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return [
     |
     */
 
-    'key' => 'mL2fq58FZXLEGdrPcN4YtpdRJBwR8hrD',
+    'key' => 'base64:blDnljYCoAY07e1BcuQV3aKXVg2d3bA9rFeCouRbfag=',
 
     'cipher' => 'AES-256-CBC',
 
