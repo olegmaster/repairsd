@@ -1,4 +1,7 @@
 /bootstrap/compiled.php
+/config/app.php
+/config/database/php
+/config/mail.php
 /vendor
 composer.phar
 .DS_Store
