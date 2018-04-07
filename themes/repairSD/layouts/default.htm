@@ -1,0 +1,39 @@
+description = "Default template"
+==
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>{{ this.page.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="{{ 'assets/images/favicon.png'|theme }}" type="image/x-icon">
+    <script type="text/javascript" src="{{ 'assets/js/jquery-3.3.1.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/slick.min.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/jquery-ui.min.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/jQuery.scrollSpeed.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/Carousel.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
+    <script type='text/javascript' src="{{ 'assets/js/general.js'|theme }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/reset.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/normalize.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/fonts.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/media.css'|theme }}">
+    {% styles %}
+</head>
+<body>
+<header>
+    {% partial 'site/header' %}
+</header>
+<main>
+    {% partial 'site/background' %}
+    {% page %}
+</main>
+<footer>
+    {% partial 'site/footer' %}
+</footer>
+<script type='text/javascript' src="{{ 'assets/js/coverflow-slideshow.js'|theme }}"></script>
+{% scripts %}
+</body>
+</html>
