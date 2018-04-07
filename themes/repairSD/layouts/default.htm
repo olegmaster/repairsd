@@ -1,5 +1,17 @@
 description = "Default template"
 ==
+function onStart()
+{
+    $this['logo'] = Backend\Models\BrandSetting::getLogo();
+}
+function onEnd()
+{
+    $this['toHome'] = Url::to('home');
+    $this['toReview'] = Url::to('review');
+    $this['toContact'] = Url::to('contact');
+    $this['toArticle'] = Url::to('article');
+}
+==
 <!DOCTYPE html>
 <html lang="en">
 <head>

@@ -1,5 +1,6 @@
 /bootstrap/compiled.php
 /config/app.php
+/config/cms.php
 /config/database/php
 /config/mail.php
 /vendor
