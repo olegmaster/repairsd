@@ -4,10 +4,7 @@ namespace nikita\setup;
 class Plugin extends \System\Classes\PluginBase
 {
 
-    public function boot()
-    {
-      dd('nikita');
-    }
+
 
     public function pluginDetails()
     {
