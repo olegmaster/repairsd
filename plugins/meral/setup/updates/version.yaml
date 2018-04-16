@@ -1,0 +1,4 @@
+1.0.1:
+  - Run table migrations
+  - create_info_editors_table.php
+  - create_sliders_table.php

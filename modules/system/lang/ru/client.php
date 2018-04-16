@@ -56,9 +56,6 @@ return [
         'weekdays' => ['Воскресение', 'Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота'],
         'weekdaysShort' => ['Вс', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб'],
     ],
-    'colorpicker' => [
-        'choose' => 'ОК',
-    ],
     'filter' => [
         'group' => [
             'all' => 'все'
@@ -71,13 +68,6 @@ return [
             'after_placeholder' => 'После',
             'before_placeholder' => 'До'
         ],
-        'numbers' => [
-            'all' => 'все',
-            'filter_button_text' => 'Фильтр',
-            'reset_button_text'  => 'Сброс',
-            'min_placeholder' => 'Min',
-            'max_placeholder' => 'Max'
-        ]
     ],
     'eventlog' => [
         'show_stacktrace' => 'Показать трассировку стека',
@@ -92,7 +82,7 @@ return [
             'openWith' => 'Открыть с помощью',
             'remember_choice' => 'Запомнить выбранный вариант для этой сессии',
             'open' => 'Открыть',
-            'cancel' => 'Отмена'
+            'cancel' => 'Отменить'
         ],
     ],
 ];

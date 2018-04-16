@@ -1,0 +1,15 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    number:
+        label: number
+    email:
+        label: email
+    headerTitle:
+        label: title
+    show:
+        label: check to show
+        type: checkbox
+        default: true

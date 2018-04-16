@@ -264,9 +264,9 @@ class SettingsManager
         ]));
 
         /*
-         * Link to the generic settings page if a URL is not provided
+         * Link to the generic settings page
          */
-        if (isset($item['class']) && !isset($item['url'])) {
+        if (isset($item['class'])) {
             $uri = [];
 
             if (strpos($owner, '.') !== null) {

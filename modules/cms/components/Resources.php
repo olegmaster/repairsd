@@ -185,7 +185,8 @@ class Resources extends ComponentBase
         if (File::isDirectory($baseTheme.'/assets')) {
             return $baseTheme.'/assets';
         }
-
-        return $baseTheme.'/resources';
+        else {
+            return $baseTheme.'/resources';
+        }
     }
 }

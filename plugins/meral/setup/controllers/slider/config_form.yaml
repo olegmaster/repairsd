@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Slider
+
+# Model Form Field configuration
+form: $/meral/setup/models/slider/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Slider
+
+# Default redirect location
+defaultRedirect: meral/setup/slider
+
+## Create page
+#create:
+#    title: Create Slider
+#    redirect: meral/setup/slider/update/:id
+#    redirectClose: meral/setup/slider
+
+# Update page
+update:
+    title: Edit Slider
+    redirect: meral/setup/slider
+    redirectClose: meral/setup/slider
+
+# Preview page
+preview:
+    title: Preview Slider

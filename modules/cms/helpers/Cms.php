@@ -32,7 +32,8 @@ class Cms
         if (self::$actionExists) {
             return Url::action($routeAction, ['slug' => $path]);
         }
-
-        return Url::to($path);
+        else {
+            return Url::to($path);
+        }
     }
 }

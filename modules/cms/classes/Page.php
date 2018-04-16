@@ -72,7 +72,7 @@ class Page extends CmsCompoundObject
      */
     public function getCodeClassParent() : string
     {
-        return PageCode::class;
+        return '\Cms\Classes\PageCode';
     }
 
     /**

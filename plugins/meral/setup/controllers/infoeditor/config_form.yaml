@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Info Editor
+
+# Model Form Field configuration
+form: $/meral/setup/models/infoeditor/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\InfoEditor
+
+# Default redirect location
+defaultRedirect: meral/setup/infoeditor
+
+# Create page
+#create:
+#    title: Create Info Editor
+#    redirect: meral/setup/infoeditor/update/:id
+#    redirectClose: meral/setup/infoeditor
+
+# Update page
+update:
+    title: Edit Info Editor
+    redirect: meral/setup/infoeditor
+    redirectClose: meral/setup/infoeditor
+
+# Preview page
+preview:
+    title: Preview Info Editor

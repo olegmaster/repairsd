@@ -394,15 +394,7 @@ class FileUpload extends FormWidgetBase
             $file->is_public = $fileRelation->isPublic();
             $file->save();
 
-            /**
-             * Attach directly to the parent model if it exists,
-             * else attach via deferred binding
-             */
-            if (@$fileRelation->getParent()->exists) {
-                $fileRelation->add($file);
-            } else {
-                $fileRelation->add($file, $this->sessionKey);
-            }
+            $fileRelation->add($file, $this->sessionKey);
 
             $file = $this->decorateFileAttributes($file);
 

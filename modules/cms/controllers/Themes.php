@@ -17,7 +17,6 @@ use Cms\Classes\ThemeManager;
 use System\Classes\SettingsManager;
 use Backend\Classes\Controller;
 use Exception;
-use Backend\Widgets\Form;
 
 /**
  * Theme selector controller
@@ -58,7 +57,7 @@ class Themes extends Controller
         /*
          * Enable AJAX for Form widgets
          */
-        if (post('mode') === 'import') {
+        if (post('mode') == 'import') {
             $this->makeImportFormWidget($this->findThemeObject())->bindToController();
         }
     }
@@ -117,7 +116,7 @@ class Themes extends Controller
         $widgetConfig->arrayName = 'Theme';
         $widgetConfig->context = 'update';
 
-        $widget = $this->makeWidget(Form::class, $widgetConfig);
+        $widget = $this->makeWidget('Backend\Widgets\Form', $widgetConfig);
         return $widget;
     }
 

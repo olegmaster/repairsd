@@ -53,7 +53,6 @@ tabs:
             type: radio
 
         groups:
-            context: [create, update]
             label: backend::lang.user.groups
             commentAbove: backend::lang.user.groups_comment
             type: checkboxlist
@@ -67,3 +66,4 @@ secondaryTabs:
             mode: image
             imageHeight: 250
             imageWidth: 250
+
