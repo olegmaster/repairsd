@@ -278,10 +278,10 @@
 @font-face {
     font-family: 'Georgia-Italic';
     src:
-        url('../Fonts/Fontin/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
-        url('../Fonts/Fontin/Georgia-Italic.woff') format('woff'),
-        url('../Fonts/Fontin/Georgia-Italic.ttf')  format('truetype'),
-        url('../Fonts/Fontin/Georgia-Italic.svg#Georgia-Italic') format('svg');
+        url('../Fonts/Georgia/Georgia-Italic.eot?#iefix') format('embedded-opentype'),
+        url('../Fonts/Georgia/Georgia-Italic.woff') format('woff'),
+        url('../Fonts/Georgia/Georgia-Italic.ttf')  format('truetype'),
+        url('../Fonts/Georgia/Georgia-Italic.svg#Georgia-Italic') format('svg');
     font-weight: normal;
     font-style: normal;
 }

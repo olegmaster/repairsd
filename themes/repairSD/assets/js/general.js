@@ -70,7 +70,54 @@ $(document).ready(function() {
         })
     });
 });
+/*Slider reviews*/
+var $slider=$("#slider-reviews");
+var slideLength = $("#slider-reviews > .slide-review").length-1;
+var is3D=false;
+$(".key").mousedown(function(){
+    if($(this).hasClass("ctrl")){
+        if($(this).hasClass("active")) is3D = true;
+        $("#slider-reviews").removeClass("_3D");
+    }
+    $(this).addClass("active");
+}).mouseup(function(){
+    if($(this).hasClass("down") || $(this).hasClass("right")) nextSlide();
+    if($(this).hasClass("up") || $(this).hasClass("left")) prevSlide();
+    if($(this).hasClass("ctrl active")){
+        if(is3D){
+            $(this).removeClass("active");
+            $("#slider-reviews").addClass("_3D");
+            is3D=false;
+        }
+    }else{
+        $(this).removeClass("active");
+    }
+});
 
+function nextSlide() {
+    lastElem().addClass("active");
+    $slider.addClass("transfomer");
+    setTimeout(function(){
+        var $slicedSlide = $('.slide-review').slice(slideLength);
+
+        $slider.prepend($slicedSlide);
+        $(document).find(".slide-review.active").removeClass("active");
+        $slider.removeClass("transfomer");
+    },300);
+};
+
+function prevSlide(){
+    var $slicedSlide = $('.slide-review').slice(0,1).addClass("active");
+    $slider.append($slicedSlide);
+    setTimeout(function(){
+
+        lastElem().removeClass("active");
+    },50);
+};
+
+function lastElem(){
+    return $("#slider-reviews > .slide-review").last();
+};
 
 /*What Clients Say*/
 

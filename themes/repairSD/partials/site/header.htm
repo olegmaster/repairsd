@@ -1,18 +1,15 @@
+[viewBag]
+==
 <!-- header -->
+<header>
 <div class="header">
-    <nav class="container">
+    <nav >
         <a href="{{ toHome }}" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 logo">
-            <img src="{{ logo }}" alt="logo">
+            <img src="{{ 'assets/images/logo.png'|theme }}" alt="logo">
         </a>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 burger-menu">
-            <ul class="fixed-menu">
-                <li>
-                    <a href="tel:8-888-848-848">{% content 'phone_contact' %}</a>
-                </li>
-                <li>
-                    <a href="mailto:info2@repairsd.com">info2@repairsd.com</a>
-                </li>
-            </ul>
+                {% partial 'info' %}
+
             <ul id="test-slide" class="menu">
                 <li>
                     <a href="{{ toHome }}">Home</a>
@@ -31,8 +28,8 @@
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
             </div>
         </div>
     </nav>
 </div>
+</header>

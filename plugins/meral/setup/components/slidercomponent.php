@@ -1,20 +1,20 @@
 <?php namespace Meral\Setup\Components;
 
 use Cms\Classes\ComponentBase;
-use meral\setup\models\InfoEditor;
+use meral\setup\models\Slider;
 
-class info extends ComponentBase
+class slidercomponent extends ComponentBase
 {
     public function componentDetails()
     {
         return [
-            'name'        => 'info Component',
+            'name'        => 'sliderComponent Component',
             'description' => 'No description provided yet...'
         ];
     }
-    public function getInfo()
+    public function getSlides()
     {
-        return InfoEditor::orderBy('id', 'desc')->get();
+        return Slider::orderBy('id', 'desc')->get();
     }
     public function defineProperties()
     {

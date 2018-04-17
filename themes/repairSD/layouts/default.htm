@@ -1,20 +1,9 @@
 description = "Default template"
 ==
-function onStart()
-{
-    $this['logo'] = Backend\Models\BrandSetting::getLogo();
-}
-function onEnd()
-{
-    $this['toHome'] = Url::to('home');
-    $this['toReview'] = Url::to('review');
-    $this['toContact'] = Url::to('contact');
-    $this['toArticle'] = Url::to('article');
-}
-==
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>{{ this.page.title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,8 +18,8 @@ function onEnd()
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/reset.css'|theme }}">
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/normalize.css'|theme }}">
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
-    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/fonts.css'|theme }}">
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/style.css'|theme }}">
+    <link rel="stylesheet" type="text/css" href="{{ 'assets/css/fonts.css'|theme }}">
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/media.css'|theme }}">
     {% styles %}
 </head>
@@ -40,12 +29,14 @@ function onEnd()
 </header>
 <main>
     {% partial 'site/background' %}
-    {% page %}
+    {% partial 'site/row-form' %}    
 </main>
 <footer>
     {% partial 'site/footer' %}
 </footer>
 <script type='text/javascript' src="{{ 'assets/js/coverflow-slideshow.js'|theme }}"></script>
+
 {% scripts %}
+
 </body>
 </html>

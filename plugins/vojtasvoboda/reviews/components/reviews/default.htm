@@ -9,19 +9,27 @@
 
 {% import _self as macros %}
 
-<div class="reviews">
+
     {% for review in __SELF__.reviews %}
-    <figure class="review">
-        <header>
-            <h2>{{ review.title }}</h2>
-        </header>
-        <div class="rating">
-            {{ macros.rating(review.rating) }}
-        </div>
-        <blockquote>{{ review.content }}</blockquote>
-        <footer>
-            <cite>{{ review.name }}</cite>
-        </footer>
-    </figure>
+    <div class="slide-review">
+        <p>
+            {{ review.content }}
+        </p>
+        <h3>
+            {{ review.title }}
+        </h3>
+    </div>
+    <!--<figure class="review">-->
+        <!--<header>-->
+            <!--<h2></h2>-->
+        <!--</header>-->
+        <!--<div class="rating">-->
+            <!--{{ macros.rating(review.rating) }}-->
+        <!--</div>-->
+        <!--<blockquote></blockquote>-->
+        <!--<footer>-->
+            <!--<cite>{{ review.name }}</cite>-->
+        <!--</footer>-->
+    <!--</figure>-->
     {% endfor %}
-</div>
+

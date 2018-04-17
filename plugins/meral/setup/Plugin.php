@@ -50,10 +50,11 @@ class Plugin extends PluginBase
      */
     public function registerComponents()
     {
-        return []; // Remove this line to activate
+       // return []; // Remove this line to activate
 
         return [
-            'Meral\Setup\Components\info' => 'infoSite',
+            'meral\setup\components\info' => 'infoSite',
+            'meral\setup\components\slidercomponent' => 'slidercomponent'
         ];
     }
 
