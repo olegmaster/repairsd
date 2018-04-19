@@ -29,13 +29,7 @@ class Review extends Model
     public $table = 'vojtasvoboda_reviews_reviews';
 
     /** @var array Rules */
-    public $rules = [
-        'name' => 'required|max:300',
-        'email' => 'email',
-        'rating' => 'numeric',
-        'approved' => 'boolean',
-        'content' => 'required|min:6|max:3000',
-    ];
+    public $rules = [];
 
     public $translatable = ['name', 'title', 'content'];
 

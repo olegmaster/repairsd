@@ -40,7 +40,9 @@ class Plugin extends PluginBase
      */
     public function boot()
     {
-
+//        User::extend(function($model) {
+//            $model->hasOne['author'] = ['Acme\Blog\Models\Author'];
+//        });
     }
 
     /**
@@ -54,7 +56,11 @@ class Plugin extends PluginBase
 
         return [
             'meral\setup\components\info' => 'infoSite',
-            'meral\setup\components\slidercomponent' => 'slidercomponent'
+            'meral\setup\components\slidercomponent' => 'slidercomponent',
+            'meral\setup\components\Bookingformcomponent' => 'bookingformcomponent',
+            'meral\setup\components\Numberformcomponent' => 'numberformcomponent',
+            'meral\setup\components\Showbookings' => 'showbookings',
+            'meral\setup\components\Reviewform' => 'reviewform'
         ];
     }
 
@@ -98,7 +104,18 @@ class Plugin extends PluginBase
                         'label' => 'Slider',
                         'icon' => 'icon-list-alt',
                         'url' => \Backend::url('meral/setup/slider'),
-                    ]
+                    ],
+                    'bookings' => [
+                        'label' => 'Bookings',
+                        'icon' => 'icon-list-alt',
+                        'url' => \Backend::url('meral/setup/showbookingscontroller'),
+                    ],
+                    'call' => [
+                        'label' => 'Call',
+                        'icon' => 'icon-list-alt',
+                        'url' => \Backend::url('meral/setup/call'),
+                    ],
+
                 ],
 
             ]

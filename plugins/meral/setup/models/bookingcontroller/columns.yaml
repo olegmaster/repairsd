@@ -1,0 +1,25 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    apptype:
+      label: apptype
+    brand:
+      label: brand
+    date:
+      label: date
+    time:
+      label: time
+    name:
+      label: name
+    address:
+      label: address
+    city:
+      label: city
+    phone:
+      label: phone
+    problem:
+      label: problem
+    date_create:
+      label: date_create

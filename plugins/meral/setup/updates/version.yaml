@@ -2,3 +2,6 @@
   - Run table migrations
   - create_info_editors_table.php
   - create_sliders_table.php
+  - create_bookings_table.php
+  - create_numberforms_table.php
+
