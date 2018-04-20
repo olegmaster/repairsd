@@ -1,0 +1,30 @@
+description = "test"
+
+[infoSite]
+
+[viewBag]
+==
+{% for i in infoSite.getInfo %} <!--Вызывем метод getPosts в нашем компоненте и проходимся циклом по полученынм запиям!-->
+
+<ul class="fixed-menu">
+    <li>
+        <a href="tel:8-888-848-848">{{ i.number }}</a>
+    </li>
+    <li>
+        <a href="mailto:info2@repairsd.com">{{ i.email }}</a>
+    </li>
+</ul>
+{% if i.show=='1' %}
+<script>
+
+$(document).ready(function(){
+    $('ul[class = fixed-menu]').find('li').first().css({
+        'display': 'none'
+    })
+    console.log($('#Слой_1'));
+    $(document.body).find('button[id=modal-call-btn]').remove()
+});
+
+</script>
+{% endif %}
+{% endfor %}

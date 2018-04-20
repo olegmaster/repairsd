@@ -1,0 +1,75 @@
+<form data-request="{{__SELF__}}onSave">
+    <div>
+        <div class="form-group">
+            <label for="app-type" class="select">
+                <select id="app-type" name="app-type">
+                    <option disabled selected hidden>Applience Type</option>
+                    <option>Refrigerator</option>
+                    <option>Washer</option>
+                    <option>Dryer</option>
+                    <option>Dishwasher</option>
+                    <option>Range</option>
+                    <option>Oven</option>
+                    <option>Freezer</option>
+                    <option>Cooktoop</option>
+                </select>
+            </label>
+            <label for="brand" class="select">
+                <select id="brand" name="brand">
+                    <option disabled selected hidden>Brand</option>
+                    <option>Doesn't Matter</option>
+                    <option>Today</option>
+                    <option>Tomorrow</option>
+                    <option>Within Next 2 Days</option>
+                    <option>Within Next 3 Days</option>
+                    <option>Within Next Week</option>
+                </select>
+            </label>
+            <label for="date" class="select">
+                <select id="date" name="date">
+                    <option disabled selected hidden>Appointment Date</option>
+                    <option>Doesn't Matter</option>
+                    <option>Today</option>
+                    <option>Tomorrow</option>
+                    <option>Within Next 2 Days</option>
+                    <option>Within Next 3 Days</option>
+                    <option>Within Next Week</option>
+                    <option>Doesn't Matter</option>
+                </select>
+            </label>
+            <label for="time" class="select">
+                <select id="time" name="time">
+                    <option value="" disabled selected hidden>Time</option>
+                    <option>8 AM - 11 AM</option>
+                    <option>9 AM - 12 PM</option>
+                    <option>10 AM - 1 PM</option>
+                    <option>11 AM - 2 PM</option>
+                    <option>1 PM - 4 PM</option>
+                    <option>2 PM - 5 PM</option>
+                    <option>3 PM - 6 PM</option>
+                    <option>5 PM - 8 PM</option>
+                    <option>6 PM - 9 PM</option>
+                    <option>As Soon As Possible</option>
+                </select>
+            </label>
+            <label for="name">
+                <input type="text" id="name" placeholder="Name" name="name">
+            </label>
+        </div>
+        <div class="form-group">
+            <label for="address">
+                <input type="text" id="address" placeholder="Address" name="address">
+            </label>
+            <label for="city">
+                <input type="text" id="city" placeholder="City" name="city">
+            </label>
+            <label for="phone">
+                <input type="number" id="phone" placeholder="Phone" name="phone">
+            </label>
+            <label for="problem">
+                <textarea id="problem" rows="1 " placeholder="Problem" name="problem"></textarea>
+            </label>
+        </div>
+    </div>
+    <button type="submit" class="submit">Book Now</button>
+</form>

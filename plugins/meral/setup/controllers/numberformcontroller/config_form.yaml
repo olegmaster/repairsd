@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Numberformcontroller
+
+# Model Form Field configuration
+form: $/meral/setup/models/numberformcontroller/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Numberformcontroller
+
+# Default redirect location
+defaultRedirect: meral/setup/numberformcontroller
+
+# Create page
+create:
+    title: Create Numberformcontroller
+    redirect: meral/setup/numberformcontroller/update/:id
+    redirectClose: meral/setup/numberformcontroller
+
+# Update page
+update:
+    title: Edit Numberformcontroller
+    redirect: meral/setup/numberformcontroller
+    redirectClose: meral/setup/numberformcontroller
+
+# Preview page
+preview:
+    title: Preview Numberformcontroller

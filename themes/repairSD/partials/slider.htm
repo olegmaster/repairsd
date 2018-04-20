@@ -1,0 +1,31 @@
+description = "test"
+
+[slidercomponent]
+
+[viewBag]
+==
+<section>
+    <div class="stage">
+
+        {% for key,i in slidercomponent.getSlides %}
+        <!--Вызывем метод getPosts в нашем компоненте и проходимся циклом по полученынм запиям!-->
+
+        <div class="cbImage">
+            <h3>{{key}}:{{i.title}}</h3>
+            <p>
+                {{key}}:{{i.content}}
+            </p>
+            <button>Read More</button>
+        </div>
+        {% if key==3 %}
+        <script>
+            $('.cbImage').last().addClass('active')
+        </script>
+        {% endif %}
+
+
+        {% endfor %}
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+</section>

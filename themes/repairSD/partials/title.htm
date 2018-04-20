@@ -1,0 +1,9 @@
+description = "tt"
+
+[infoSite]
+
+[viewBag]
+==
+{% for i in infoSite.getInfo %} <!--Вызывем метод getPosts в нашем компоненте и проходимся циклом по полученынм запиям!-->
+<h1>{{ i.headerTitle }}</h1>
+{% endfor %}

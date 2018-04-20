@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: showbookingscontroller
+
+# Model Form Field configuration
+form: $/meral/setup/models/Bookingcontroller/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Showbookingsmodel
+
+# Default redirect location
+defaultRedirect: meral/setup/showbookingscontroller
+
+# Create page
+create:
+    title: Create showbookingscontroller
+    redirect: meral/setup/showbookingscontroller/update/:id
+    redirectClose: meral/setup/showbookingscontroller
+
+# Update page
+update:
+    title: Edit showbookingscontroller
+    redirect: meral/setup/showbookingscontroller
+    redirectClose: meral/setup/showbookingscontroller
+
+# Preview page
+preview:
+    title: Preview showbookingscontroller

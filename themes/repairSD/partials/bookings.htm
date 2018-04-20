@@ -1,0 +1,9 @@
+description = "tt"
+
+[viewBag]
+
+[booking]
+==
+{% for i in booking.getBookings %}
+<h1>{{ i.id }}</h1>
+{% endfor %}

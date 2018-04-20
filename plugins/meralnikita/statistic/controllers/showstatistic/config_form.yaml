@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Showstatistic
+
+# Model Form Field configuration
+form: $/meralnikita/statistic/models/showstatistic/fields.yaml
+
+# Model Class name
+modelClass: Meralnikita\Statistic\Models\Showstatistic
+
+# Default redirect location
+defaultRedirect: meralnikita/statistic/showstatistic
+
+# Create page
+create:
+    title: Create Showstatistic
+    redirect: meralnikita/statistic/showstatistic/update/:id
+    redirectClose: meralnikita/statistic/showstatistic
+
+# Update page
+update:
+    title: Edit Showstatistic
+    redirect: meralnikita/statistic/showstatistic
+    redirectClose: meralnikita/statistic/showstatistic
+
+# Preview page
+preview:
+    title: Preview Showstatistic

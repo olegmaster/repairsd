@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Call
+
+# Model Form Field configuration
+form: $/meral/setup/models/numberform/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Numberform
+
+# Default redirect location
+defaultRedirect: meral/setup/call
+
+# Create page
+create:
+    title: Create Call
+    redirect: meral/setup/call/update/:id
+    redirectClose: meral/setup/call
+
+# Update page
+update:
+    title: Edit Call
+    redirect: meral/setup/call
+    redirectClose: meral/setup/call
+
+# Preview page
+preview:
+    title: Preview Call

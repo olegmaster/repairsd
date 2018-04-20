@@ -1,0 +1,14 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: ID
+        searchable: true
+    phonenumber:
+        label: Phone number
+        searchable: true
+    created_at:
+        label: created_at
+        searchable: true
