@@ -40,7 +40,7 @@ class Bookingformcomponent extends ComponentBase
             $book->phone = Input::get('phone');
             $book->problem = Input::get('problem');
             $book->save();
-        Mail::rawTo('indahazzard@gmail.com', 'Hello friend');
+       // Mail::rawTo('indahazzard@gmail.com', 'Hello friend');
 //        Mail::send('acme.blog::mail.message', $vars, function($message) {
 //
 //            $message->to('admin@domain.tld', 'Admin Person');

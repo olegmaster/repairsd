@@ -9,14 +9,16 @@ class Showbookings extends ComponentBase
     public function componentDetails()
     {
         return [
-            'name'        => 'showbookings Component',
+            'name' => 'showbookings Component',
             'description' => 'No description provided yet...'
         ];
     }
+
     public function getInfo()
     {
         return Bookingmodel::orderBy('id', 'desc')->get();
     }
+
     public function defineProperties()
     {
         return [];

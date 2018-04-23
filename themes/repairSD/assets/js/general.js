@@ -52,7 +52,6 @@ $(document).ready(function() {
     $(function(f){
         var element = f('#modal-form-btn');
         f(window).scroll(function(){
-            console.log(this);
             element['fade'+ (f(this).scrollTop() > 800 ? 'In': 'Out')](500);
         });
     });
