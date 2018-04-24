@@ -1,0 +1,30 @@
+title = "Blog Post"
+url = "/article/page/:slug"
+is_hidden = 0
+
+[blogPost]
+slug = "{{ :slug }}"
+categoryPage = "article-category"
+==
+<?php
+function onEnd()
+{
+    // Optional - set the page title to the post title
+    if (isset($this->post))
+        $this->page->title = $this->post->title;
+}
+?>
+==
+{% if post %}
+    <h2>{{ post.title }}</h2>
+  {% if post.featured_images %}
+            <div class="posts-image" >
+                {% for image in post.featured_images %}
+                <a style="width: 200px;height: 200px" href="{{ post.url }}"><img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"></a>
+                {% endfor %}
+            </div>
+            {% endif %}
+    {% component 'blogPost' %}
+{% else %}
+    <h2>Post not found</h2>
+{% endif %}
