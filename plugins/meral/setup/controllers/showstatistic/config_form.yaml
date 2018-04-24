@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Showstatistic
+
+# Model Form Field configuration
+form: $/meral/setup/models/showstatistic/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Showstatistic
+
+# Default redirect location
+defaultRedirect: meral/setup/showstatistic
+
+# Create page
+create:
+    title: Create Showstatistic
+    redirect: meral/setup/showstatistic/update/:id
+    redirectClose: meral/setup/showstatistic
+
+# Update page
+update:
+    title: Edit Showstatistic
+    redirect: meral/setup/showstatistic
+    redirectClose: meral/setup/showstatistic
+
+# Preview page
+preview:
+    title: Preview Showstatistic
