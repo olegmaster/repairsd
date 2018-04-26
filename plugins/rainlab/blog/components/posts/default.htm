@@ -23,6 +23,11 @@
 
             <p class="excerpt"> {{ post.summary|raw|length > 100 ? post.summary|raw|slice(0, 100) ~ '...' : post.summary|raw
                 }}</p>
+            <a href="{{ post.url }}">
+                read more...
+            </a>
+
+
         </li>
     {% else %}
         <li class="no-data">{{ noPostsMessage }}</li>
