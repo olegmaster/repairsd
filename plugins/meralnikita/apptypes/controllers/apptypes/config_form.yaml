@@ -1,0 +1,10 @@
+name: Apptypes
+form: $/meralnikita/apptypes/models/apptypes/fields.yaml
+modelClass: Meralnikita\Apptypes\Models\Apptypes
+defaultRedirect: meralnikita/apptypes/apptypes
+create:
+    redirect: 'meralnikita/apptypes/apptypes/update/:id'
+    redirectClose: meralnikita/apptypes/apptypes
+update:
+    redirect: meralnikita/apptypes/apptypes
+    redirectClose: meralnikita/apptypes/apptypes

@@ -1,0 +1,4 @@
+title: Apptypes
+modelClass: Meralnikita\Apptypes\Models\Apptypes
+toolbar:
+    buttons: reorder_toolbar

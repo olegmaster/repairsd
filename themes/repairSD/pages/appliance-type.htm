@@ -1,0 +1,21 @@
+title = "appliance-type"
+url = "/appliance-type/:id"
+layout = "appliance-type"
+is_hidden = 0
+
+[builderDetails]
+modelClass = "Meralnikita\Apptypes\Models\Apptypes"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "type"
+notFoundMessage = "Record not found"
+==
+{% set record = builderDetails.record %}
+{% set displayColumn = builderDetails.displayColumn %}
+{% set notFoundMessage = builderDetails.notFoundMessage %}
+
+{% if record %}
+    <h2>{{record.type}}</h2>
+{% else %}
+    {{ notFoundMessage }}
+{% endif %}

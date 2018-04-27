@@ -1,0 +1,38 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table meralnikita_apptypes_'
+    - builder_table_create_meralnikita_apptypes_.php
+1.0.3:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes_.php
+1.0.4:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__2.php
+1.0.5:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__3.php
+1.0.6:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__4.php
+1.0.7:
+    - 'Created table meralnikita_apptypes_slider1_images'
+    - builder_table_create_meralnikita_apptypes_slider1_images.php
+1.0.8:
+    - 'Created table meralnikita_apptypes_slider2_texts'
+    - builder_table_create_meralnikita_apptypes_slider2_texts.php
+1.0.9:
+    - 'Created table meralnikita_apptypes_slider2_images'
+    - builder_table_create_meralnikita_apptypes_slider2_images.php
+1.0.10:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__5.php
+1.0.11:
+    - 'Updated table meralnikita_apptypes_slider2_texts'
+    - builder_table_update_meralnikita_apptypes_slider2_texts.php
+1.0.12:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__6.php
+1.0.13:
+    - 'Updated table meralnikita_apptypes_'
+    - builder_table_update_meralnikita_apptypes__7.php

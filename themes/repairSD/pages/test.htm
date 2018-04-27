@@ -2,52 +2,81 @@ title = "test"
 url = "/test"
 is_hidden = 0
 
-[builderList]
-modelClass = "Meralnikita\Apptypes\Models\Apptypes"
-scope = "-"
-scopeValue = "{{ :scope }}"
-displayColumn = "type"
-noRecordsMessage = "No records found"
-detailsPage = "-"
-detailsUrlParameter = "id"
-pageNumber = "{{ :page }}"
+[builderDetails]
+modelClass = "VojtaSvoboda\Reviews\Models\Category"
+identifierValue = "{{ :id }}"
+modelKeyColumn = "id"
+displayColumn = "image_source"
+notFoundMessage = "Record not found"
 ==
 <?php
-function onSave(){
-    $name = get('name');
-    $city = get('city');
-    var_dump($name);
+use meralnikita\apptypes\Models\Apptypes;
+
+function onStart()
+{
+    $item = Apptypes::all();
+   // dd($item);
+   // foreach($item as $src){
+       // if($src->img_slider_1()->first() !== null){
+   //$file[] = $src->img_slider_1()->first()->getPath();
+   $paths1 = $item->map(function($src,$key){
+       if($src->img_slider_1() !== null){
+           return $src->img_slider_1()->get();//;//->getPath();
+             }else{
+            echo "eh";
+            }
+       });
+    $paths2 = $item->map(function($src,$key){
+       if($src->img_slider_2() !== null){
+           return $src->img_slider_2()->get();//;//->getPath();
+             }else{
+            echo "eh";
+            }
+       });
+       // }else{
+        //    echo "eh";
+         //   }
+//}    
+$a=null;
+$fff = null;
+        foreach($paths1 as $key => $path){
+                $a[] = $path->all();
     
+            }
+            foreach($a as $file){
+                if(($file)!==[]){
+                 foreach($file as $d){
+                         $fff[] = $d->getPath();
+                     }   
+                }
+                }
+            
+         //  dd($fff); 
+           
+           $a1=null;
+$fff1 = null;
+        foreach($paths2 as $key => $path){
+                $a1[] = $path->all();
     
+            }
+            foreach($a1 as $file){
+                if(($file)!==[]){
+                 foreach($file as $d){
+                         $fff1[] = $d->getPath();
+                     }   
+                }
+                }
+            
+           dd([$fff,$fff1]); 
+     //  dd($paths[0]->all()[1]->getPath());
+
+    
+// If the file is public, this will return the direct location
+
+// If the file is private, you will need to return the contents via a script
+// This will include the necessary header to download the file
+ 
 }
 ?>
 ==
-
-<title>{{ this.page.title }}</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="{{ 'assets/images/favicon.png'|theme }}" type="image/x-icon">
-<script type="text/javascript" src="{{ 'assets/js/jquery-3.3.1.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/slick.min.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/jquery-ui.min.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/jQuery.scrollSpeed.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/Carousel.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/bootstrap.min.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/js/general.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.min.js'|theme }}"></script>
-<script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.min.js.map'|theme }}"></script>
-
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/reset.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/normalize.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/bootstrap.min.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/style.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/fonts.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/css/media.css'|theme }}">
-<link rel="stylesheet" type="text/css" href="{{ 'assets/scripts/rateit.css'|theme }}">
-{% styles %}
-<h2> TEST FROM </h2>
-
-
-{% partial 'apptypes' %}
-{% scripts %}
+<img src = " model_data.img_slider_1.getPath()" ></img>

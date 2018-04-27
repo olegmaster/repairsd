@@ -1,0 +1,11 @@
+plugin:
+    name: 'meralnikita.apptypes::lang.plugin.name'
+    description: 'meralnikita.apptypes::lang.plugin.description'
+    author: meralnikita
+    icon: oc-icon-archive
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'App Types'
+        url: meralnikita/apptypes/apptypes
+        icon: icon-align-justify

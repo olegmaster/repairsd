@@ -1,0 +1,43 @@
+fields:
+    type:
+        label: 'Appliance type'
+        span: full
+        type: text
+    svg:
+        label: svg
+        span: auto
+        type: text
+    slider1_left_text:
+        label: 'left text'
+        span: auto
+        type: text
+    slider1_center_text:
+        label: 'center text'
+        span: auto
+        type: text
+    slider2_left_text:
+        label: 'left text2'
+        span: auto
+        type: text
+    slider2_center_text:
+        label: 'center text2'
+        span: auto
+        type: text
+    img_slider_1:
+        label: 'File upload1'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload
+    img_slider_2:
+        label: 'File upload2'
+        mode: file
+        useCaption: true
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: auto
+        type: fileupload

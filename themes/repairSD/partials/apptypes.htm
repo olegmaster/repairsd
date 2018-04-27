@@ -1,0 +1,41 @@
+[viewBag]
+
+[builderList]
+modelClass = "Meralnikita\Apptypes\Models\Apptypes"
+scope = "-"
+scopeValue = "{{ :scope }}"
+displayColumn = "type"
+noRecordsMessage = "No records found"
+detailsPage = "-"
+detailsUrlParameter = "id"
+pageNumber = "{{ :page }}"
+==
+{% set records = builderList.records %}
+{% set displayColumn = builderList.displayColumn %}
+{% set noRecordsMessage = builderList.noRecordsMessage %}
+{% set detailsPage = builderList.detailsPage %}
+{% set detailsKeyColumn = builderList.detailsKeyColumn %}
+{% set detailsUrlParameter = builderList.detailsUrlParameter %}
+
+
+<div id="applience-type">
+    <h2>Appliance Type</h2>
+    <div class="applience-type">
+        {% for record in records %}
+        <a class="type" href="/appliance-type/{{record.id}}">
+            <div class="type-ico" href="#">
+                {{ record.svg | raw}}
+            </div>
+            <h3>{{record.type}}</h3>
+        </a>
+        {% endfor %}
+    </div>
+</div>
+<script>
+    $(".type").each(function () {
+        console.log($(this).find('h3').html());
+        if ($(this).find('h3').html() == 'AC and Heating'){
+            $(this).addClass('rotating rotating2')
+        }
+    })
+</script>
