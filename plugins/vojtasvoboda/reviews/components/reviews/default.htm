@@ -10,26 +10,23 @@
 {% import _self as macros %}
 
 
-    {% for review in __SELF__.reviews %}
-    <div class="slide-review">
-        <p>
-            {{ review.content }}
-        </p>
-        <h3>
-            {{ review.name }}
-        </h3>
+    {% for key,review in __SELF__.reviews %}
+<div class="review">
+    <span class="initials">{{ review.name|length > 1 ? review.name|slice(0, 1)  : review.name  }}
+</span>
+    <h3>{{review.name}}</h3>
+    <p>
+        {{review.content}}
+    </p>
+    <span class="number">{{key}}</span>
+    <span class="comment">Feedbacks of Our Customers</span>
+    <div class="stars">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
     </div>
-    <!--<figure class="review">-->
-        <!--<header>-->
-            <!--<h2></h2>-->
-        <!--</header>-->
-        <!--<div class="rating">-->
-            <!--{{ macros.rating(review.rating) }}-->
-        <!--</div>-->
-        <!--<blockquote></blockquote>-->
-        <!--<footer>-->
-            <!--<cite>{{ review.name }}</cite>-->
-        <!--</footer>-->
-    <!--</figure>-->
+</div>
     {% endfor %}
 
