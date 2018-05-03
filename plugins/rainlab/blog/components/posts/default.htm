@@ -1,56 +1,44 @@
 {% set posts = __SELF__.posts %}
 
-<ul class="post-list">
+
     {% for post in posts %}
-        <li>
-            <h3><a href="{{ post.url }}">{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</a></h3>
-            {% if post.featured_images.count %}
-            <div class="posts-image" >
-                {% for image in post.featured_images %}
-                <a style="width: 200px;height: 200px" href="{{ post.url }}"><img data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}"></a>
-                {% endfor %}
-            </div>
-            {% endif %}
-
-            <p class="info">
-                Posted
-                {% if post.categories.count %} in {% endif %}
-                {% for category in post.categories %}
-                    <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
-                {% endfor %}
-                on {{ post.published_at|date('M d, Y') }}
-            </p>
-
+    <div class="article-single">
+        <h3><a href="article/{{ post.slug }}">{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</a></h3>
+        <div class="text-articles">
             <p class="excerpt"> {{ post.summary|raw|length > 100 ? post.summary|raw|slice(0, 100) ~ '...' : post.summary|raw
                 }}</p>
-            <a href="{{ post.url }}">
-                read more...
-            </a>
+            <div class="article-bottom">
+                {% if post.categories.count %}  {% endif %}
+                <ul class="tags">
+                    {% for category in post.categories %}
+                    <li>
+                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                    </li>
+
+                    {% endfor %}
+                </ul>
 
 
-        </li>
-    {% else %}
-        <li class="no-data">{{ noPostsMessage }}</li>
+
+                <a class="read-more" href="article/{{ post.slug }}">Read more</a>
+            </div>
+            <span class="number">01</span>
+            <div class="image-articles">
+                {% if post.featured_images.count %}
+                <div class="posts-image" >
+                    {% for image in post.featured_images %}
+                    <img style="height: 310px" data-src="{{ image.filename }}" src="{{ image.path }}" alt="{{ image.description }}">
+                    {% endfor %}
+                </div>
+                {% endif %}
+                <span class="article-date">{{ post.published_at|date('M d, Y') }}</span>
+            </div>
+        </div>
+        <span class="comment">Solutions of Widespread Problems</span>
+    </div>
+
     {% endfor %}
-</ul>
 
-{% for post in posts %}
 
-{% endfor %}
-{% if posts.lastPage > 1 %}
-    <ul class="pagination">
-        {% if posts.currentPage > 1 %}
-            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage-1) }) }}">&larr; Prev</a></li>
-        {% endif %}
 
-        {% for page in 1..posts.lastPage %}
-            <li class="{{ posts.currentPage == page ? 'active' : null }}">
-                <a href="{{ this.page.baseFileName|page({ (pageParam): page }) }}">{{ page }}</a>
-            </li>
-        {% endfor %}
 
-        {% if posts.lastPage > posts.currentPage %}
-            <li><a href="{{ this.page.baseFileName|page({ (pageParam): (posts.currentPage+1) }) }}">Next &rarr;</a></li>
-        {% endif %}
-    </ul>
-{% endif %}

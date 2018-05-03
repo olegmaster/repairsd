@@ -1,33 +1,33 @@
 {% styles %}
-<form>
-        <h1>Write your review</h1>
-<p>Rating</p>
+<div class="modal fixed-form right fade" id="modal_review" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <form>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"></button>
 
-<div class="rateit" id="rateit10" >
-        <input type="text" name="rating" id="ratingvalue" hidden>
+        <div class="review-form-group">
+            <div class="rating">
+                <span>Rating</span>
+                <div class="rateit" id="rateit10">
+                    <input type="text" name="rating" id="ratingvalue" hidden>
+                    </input>
 
-        </input>
+                </div>
+                <label for="name">
+                    <input type="text" name="name" id="name" placeholder="Name">
+                </label>
+            </div>
+
+            <label for="problem">
+                <textarea id="problem" name="content" rows="1 " placeholder="Problem"></textarea>
+            </label>
+            <button type="submit" class="submit"></button>
+            </div>
+    </form>
 </div>
 
-<div id="full-name">
-    <p>
-        Full name
-    </p>
-    <input type="text" name="name">
-</div>
-<p>
-    your review
-</p>
-<input type="text" name="content">
-<button type="submit">
-    submit
-</button>
 
-</form>
-{% scripts %}
-<script>
-    $("#rateit10").on('click',function () {
-        $("#ratingvalue").val($('#rateit10').rateit('value'))
-        console.log($("#ratingvalue")[0].value)
-    })
-</script>
+        <script>
+            $("#rateit10").on('click', function () {
+                $("#ratingvalue").val($('#rateit10').rateit('value'))
+                console.log($("#ratingvalue")[0].value)
+            })
+        </script>

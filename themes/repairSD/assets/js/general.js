@@ -102,6 +102,32 @@ $(document).ready(function() {
         });
     });
 
+    /*Fix Review*/
+    /*show*/
+    $(function(f){
+        var element = f('#modal-review-btn');
+        f(window).scroll(function(){
+            element['fade'+ (f(this).scrollTop() > 100 ? 'In': 'Out')](500);
+        });
+    });
+    /*hide*/
+    $(document).ready(function() {
+        var socialFloat = document.querySelector('#modal-review-btn');
+        var footer = document.querySelector('footer .logo');
+        function checkOffset() {
+            function getRectTop(el){
+                var rect = el.getBoundingClientRect();
+                return rect.top;
+            }
+            if((getRectTop(socialFloat) + document.body.scrollTop) + socialFloat.offsetHeight >= (getRectTop(footer) + document.body.scrollTop) - 10)
+                socialFloat.style.position = 'absolute';
+            if(document.body.scrollTop + window.innerHeight < (getRectTop(footer) + document.body.scrollTop))
+                socialFloat.style.position = 'fixed'; // restore when you scroll up
+        }
+        document.addEventListener("scroll", function(){
+            checkOffset();
+        });
+    });
 
     /*Modal blocks*/
     $('.btn-modal-forms').on('click', function() {
@@ -122,19 +148,6 @@ $(document).ready(function() {
         $(this).attr('role', 'clicked');
         return false;
     });
-
-
-    /*Type Slider*/
-    $('.type-slider').slick({
-        infinite: true,
-        dots: true,
-        speed: 1000,
-        fade: true,
-        slidesToShow: 1,
-        slidesToScroll: 1
-    });
-    $('.type-slider').prepend($('.type-slider .slick-list'));
-
 
     /*Slider reviews*/
     var $slider=$("#slider-reviews");
@@ -198,14 +211,40 @@ $(document).ready(function() {
     });
 
     /*Appliance Type Page Middle Slider*/
+    $('.type-slider').slick({
+        infinite: true,
+        dots: true,
+        speed: 1000,
+        fade: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+    });
+    $('.type-slider').prepend($('.type-slider .slick-list'));
+
+    /*Reviews Page Slider*/
     $('#reviews .reviews-page').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        speed: 1000,
+        vertical: true,
+        cssEase: 'linear'
+    });
+    $('#reviews .reviews-page').append('<div class="slick-nav">');
+    $('#reviews .reviews-page .slick-nav').append($('#reviews .reviews-page .slick-prev'));
+    $('#reviews .reviews-page .slick-nav').append($('#reviews .reviews-page .slick-dots'));
+    $('#reviews .reviews-page .slick-nav').append($('#reviews .reviews-page .slick-next'));
+
+    /*Articles Page Slider*/
+    $('#articles .articles-page').slick({
         dots: true,
         infinite: true,
         speed: 1000,
         fade: true,
         cssEase: 'linear'
     });
-    $('#reviews .reviews-page').prepend($('#reviews .reviews-page .slick-list'));
+    $('#articles .articles-page').prepend($('#articles .articles-page .slick-list'));
 
     /*Appliance Type Page Tabs Advantages*/
     $(".button-circle:nth-child(2) a").hover(function () {
@@ -221,11 +260,22 @@ $(document).ready(function() {
         var id  = $(this).attr('href'),
             top = $(id).offset().top -350;
         $('body,html').animate({scrollTop: top}, 1000);
-        $("#name").focus();
+        $("#articles #app-type").focus();
+        $("#contact-page #name").focus();
     });
 
     /*Focus Form*/
     $('.form input').focus(function () {
+        $(this).parent().addClass('point');
+    }).blur(function () {
+        $(this).parent().removeClass('point');
+    });
+    $('.form select').focus(function () {
+        $(this).parent().addClass('point');
+    }).blur(function () {
+        $(this).parent().removeClass('point');
+    });
+    $('.form textarea').focus(function () {
         $(this).parent().addClass('point');
     }).blur(function () {
         $(this).parent().removeClass('point');

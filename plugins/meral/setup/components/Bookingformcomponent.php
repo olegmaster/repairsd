@@ -53,11 +53,9 @@ class Bookingformcomponent extends ComponentBase
             'phone' => 'required',
             'problem' => 'required'
         ]);
-
-
-
+        
         if ($validatedData->fails()) {
-
+        $book->save();
             $data =Input::all();
            // dd($data);
             Mail::send('meral.setup::mail.message',$data,function ($message) use ($data){

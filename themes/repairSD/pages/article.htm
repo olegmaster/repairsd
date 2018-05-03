@@ -1,5 +1,5 @@
 title = "RepairSD - article"
-url = "/article/:page?"
+url = "/article"
 layout = "article-layout"
 description = "Page with article"
 is_hidden = 0
@@ -7,25 +7,14 @@ is_hidden = 0
 [blogPosts]
 pageNumber = "{{ :page }}"
 categoryFilter = ":slug"
-postsPerPage = 2
+postsPerPage = 10
 noPostsMessage = "No posts found"
 sortOrder = "published_at desc"
 categoryPage = "article-category"
-postPage = "articlepage"
+postPage = "article"
 
 [blogCategories]
-slug = ":slug"
+slug = "{{ :slug }}"
 displayEmpty = 0
 categoryPage = "article-category"
 ==
-<div class="row">
-    <div class="col-sm-8">
-        {% component 'blogPosts' %}
-
-    </div>
-    <div class="col-sm-4">
-        {% component 'blogCategories' %}
-    </div>
-
-
-</div>

@@ -194,6 +194,7 @@ class Posts extends ComponentBase
                 $category->setUrl($this->categoryPage, $this->controller);
             });
         });
+        //dd($posts);
 
         return $posts;
     }
