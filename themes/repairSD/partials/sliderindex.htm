@@ -1,0 +1,26 @@
+description = "test"
+
+[reviews]
+
+[viewBag]
+==
+
+<div class="reviews">
+    <div id="slider-reviews" class="_3D">
+        {% for key,review in reviews.reviews %}
+
+        <div class="slide-review">
+            <p>
+                {{ review.content }}
+            </p>
+            <h3>
+                {{ review.name }}
+            </h3>
+        </div>
+        {% endfor %}
+    </div>
+    <button class="key up">
+    </button>
+    <button class="key left">
+    </button>
+</div>

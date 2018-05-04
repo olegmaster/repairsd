@@ -12,21 +12,24 @@
 
     {% for key,review in __SELF__.reviews %}
 <div class="review">
-    <span class="initials">{{ review.name|length > 1 ? review.name|slice(0, 1)  : review.name  }}
+    <span class="initials">{{ review.name|length > 2 ? review.name|slice(0, 2)  : review.name  }}
 </span>
     <h3>{{review.name}}</h3>
     <p>
         {{review.content}}
     </p>
 
-    <span class="number">{{key}}</span>
+    <span class="number"></span>
     <span class="comment">Feedbacks of Our Customers</span>
     <div class="stars">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
+        {% for i in 1..5 %}
+        {% if i <= review.rating %}
+        <span class="blue-star"></span>
+
+        {% elseif i > review.rating %}
+        <span class="white-star"></span>
+        {% endif %}
+        {% endfor %}
     </div>
 </div>
     {% endfor %}

@@ -1,27 +1,35 @@
 {% set post = __SELF__.post %}
 
-<div class="content">{{ post.content_html|raw }}</div>
 
-{% if post.featured_images.count %}
-    <div class="featured-images text-center">
-        {% for image in post.featured_images %}
+<div class="article-single-block">
+    <div class="container article-single">
+        <h3>{{ post.title }}</h3>
+        <div class="text-articles">
             <p>
-                <img
-                    data-src="{{ image.filename }}"
-                    src="{{ image.path }}"
-                    alt="{{ image.description }}"
-                    style="max-width: 100%" />
+                {{ post.content_html|raw }}
             </p>
-        {% endfor %}
-    </div>
-{% endif %}
+            <span class="article-date">{{ post.published_at|date('d.m') }}</span>
+            <div class="image-articles">
+                {% for key,image in post.featured_images %}
 
-<p class="info">
-    Posted
-    {% if post.categories.count %} in
-        {% for category in post.categories %}
+                    <img
+                            data-src="{{ image.filename }}"
+                            src="{{ image.path }}"
+                            alt="{{ image.description }}"
+                            style="max-width: 485px; min-height: 410px;max-height: 410px" />
+
+                {% endfor %}
+            </div>
+        </div>
+        <ul class="tags">
+            {% if post.categories.count %}
+            {% for category in post.categories %}
+            <li>
             <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
-        {% endfor %}
-    {% endif %}
-    on {{ post.published_at|date('M d, Y') }}
-</p>
+                </li>
+            {% endfor %}
+            {% endif %}
+
+        </ul>
+    </div>
+</div>

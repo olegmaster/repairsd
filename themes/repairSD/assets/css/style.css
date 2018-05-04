@@ -2690,6 +2690,12 @@ footer .logo {
     }
 }
 /*Background review-menu*/
+#reviews .review .stars .blue-star {
+    background: url("../images/sprites.png") -93px -54px no-repeat;
+}
+#reviews .review .stars .white-star {
+    background: url("../images/sprites.png") -109px -54px no-repeat;
+}
 .review-menu {
     position: absolute;
     text-align: center;
@@ -2864,17 +2870,16 @@ footer .logo {
     top: 10px;
     width: 16px;
 }
+
 #reviews .review .stars span {
     display: inline-block;
     width: 16px;
     height: 16px;
     margin-bottom: 10px;
     background: url("../images/sprites.png") -93px -54px no-repeat;
+
 }
-#reviews .review .stars span:nth-child(4),
-#reviews .review .stars span:last-of-type {
-    background-position: -109px -54px;
-}
+
 /*Second review*/
 #reviews .slick-list .slick-active:nth-child(odd) {
     padding: 45px 80px 80px 50px;

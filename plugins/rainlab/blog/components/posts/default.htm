@@ -3,7 +3,7 @@
 
     {% for post in posts %}
     <div class="article-single">
-        <h3><a href="article/{{ post.slug }}">{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</a></h3>
+        <h3>{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</h3>
         <div class="text-articles">
             <p class="excerpt"> {{ post.summary|raw|length > 100 ? post.summary|raw|slice(0, 100) ~ '...' : post.summary|raw
                 }}</p>
@@ -22,7 +22,7 @@
 
                 <a class="read-more" href="article/{{ post.slug }}">Read more</a>
             </div>
-            <span class="number">01</span>
+            <span class="number"></span>
             <div class="image-articles">
                 {% if post.featured_images.count %}
                 <div class="posts-image" >
@@ -31,7 +31,7 @@
                     {% endfor %}
                 </div>
                 {% endif %}
-                <span class="article-date">{{ post.published_at|date('M d, Y') }}</span>
+                <span class="article-date">{{ post.published_at|date("d.m.Y") }}</span>
             </div>
         </div>
         <span class="comment">Solutions of Widespread Problems</span>

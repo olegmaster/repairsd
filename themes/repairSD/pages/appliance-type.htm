@@ -4,10 +4,10 @@ layout = "appliance-type"
 is_hidden = 0
 
 [builderDetails]
-modelClass = "Meralnikita\Apptypes\Models\Apptypes"
+modelClass = "Meralnikita\ContactindFo\Models\ContactInfo"
 identifierValue = "{{ :id }}"
 modelKeyColumn = "id"
-displayColumn = "type"
+displayColumn = "id"
 notFoundMessage = "Record not found"
 ==
 {% set record = builderDetails.record %}

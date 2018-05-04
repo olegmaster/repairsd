@@ -3,6 +3,7 @@
 use Backend;
 use System\Classes\PluginBase;
 
+
 /**
  * setup Plugin Information File
  */
@@ -61,7 +62,9 @@ class Plugin extends PluginBase
             'meral\setup\components\Numberformcomponent' => 'numberformcomponent',
             'meral\setup\components\Showbookings' => 'showbookings',
             'meral\setup\components\Reviewform' => 'reviewform',
-            'meral\setup\components\Showstatistic' => 'statistic'
+            'meral\setup\components\Showstatistic' => 'statistic',
+            'meral\setup\components\Contactform' => 'contactform'
+
         ];
     }
 
@@ -115,6 +118,11 @@ class Plugin extends PluginBase
                         'label' => 'Call',
                         'icon' => 'icon-list-alt',
                         'url' => \Backend::url('meral/setup/call'),
+                    ],
+                    'contact' => [
+                        'label' => 'contact',
+                        'icon' => 'icon-list-alt',
+                        'url' => \Backend::url('meral/setup/contact'),
                     ],
 
                 ],

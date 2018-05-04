@@ -117,25 +117,10 @@ categoryFilter = "{{ :category }}"
 <div id="what-clients-say">
     <div class="container what-clients-say">
         <h2>What Clients Say</h2>
-        <div class="reviews">
-            <div id="slider-reviews" class="_3D">
-                {% if reviews is not empty %}
-                <div class="reviews">
-                    <div class="stories">
-                        {% component 'reviews' %}
-                    </div>
-                </div>
-                {% endif %}
-
-
-            </div>
-            <button class="key up">
-            </button>
-            <button class="key left">
-            </button>
-        </div>
+		{% partial 'sliderindex' %}
+        
         <div class="view-more">
-            <button href="#">View More</button>
+            <a href="review">View More</a>
         </div>
     </div>
 </div>
