@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Redirect;
 use Illuminate\Support\Facades\Session;
 use Illuminate\Support\Facades\Validator;
 use meral\setup\models\Bookingmodel;
+use October\Rain\Support\Facades\Flash;
 
 class Bookingformcomponent extends ComponentBase
 {
@@ -23,7 +24,9 @@ class Bookingformcomponent extends ComponentBase
     {
         if (Input::get('app-type') !== null) {
             $this->onSubmitForm();
+            return redirect()->back();
         }
+
     }
 
 
@@ -43,39 +46,36 @@ class Bookingformcomponent extends ComponentBase
         $book->problem = Input::get('problem');
 
         $validatedData = Validator::make(Input::all(), [
-            'apptype' => 'required',
+            'app-type' => 'required',
             'brand' => 'required',
             'date' => 'required',
             'time' => 'required',
             'name' => 'required|min:2',
-            'address' => 'required|min:10',
+            'address' => 'required|min:5',
             'city' => 'required|min:2',
             'phone' => 'required',
             'problem' => 'required'
         ]);
-        
+
+       // dd($validatedData);
         if ($validatedData->fails()) {
-        $book->save();
+
+            return redirect()->back()->withErrors($validatedData);
+
+        }else{
+            $book->save();
             $data =Input::all();
-           // dd($data);
-            Mail::send('meral.setup::mail.message',$data,function ($message) use ($data){
+             //dd($data);
+            Mail::send('repair',$data,function ($message) use ($data){
                 $message->from("indahazzard@gmail.com");
                 $message->to('from@example.com');
                 $message->subject('from meraldev');
             });
-            Session::flash('message',"Your email was sent");
-            return redirect()->back();
-        } else {
-            echo "errrorrrr";
+            Flash::success('Settings successfully saved!');
         }
 
-        // Mail::rawTo('indahazzard@gmail.com', 'Hello friend');
-//        Mail::send('acme.blog::mail.message', $vars, function($message) {
-//
-//            $message->to('admin@domain.tld', 'Admin Person');
-//            $message->subject('This is a reminder');
-//
-//        });
+
+
     }
 
     public function defineProperties()

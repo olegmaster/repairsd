@@ -126,6 +126,7 @@ class RecordDetails extends ComponentBase
         $this->prepareVars();
 
         $this->record = $this->page['record'] = $this->loadRecord();
+       // dd($this->record);
     }
 
     protected function prepareVars()

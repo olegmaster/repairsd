@@ -1539,7 +1539,7 @@ form .submit:hover  {
 }
 /*Brand Dots Hover*/
 #brands .brand:hover {
-    background: url("../images/brand-hover.png")0 0 no-repeat;
+    background: url("../images/Brand-hover.png")0 0 no-repeat;
     background-position: 50% 50%;
 }
 #brands .brand:hover svg .st0,

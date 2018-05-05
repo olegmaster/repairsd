@@ -7,22 +7,6 @@ fields:
         label: svg
         span: auto
         type: text
-    slider1_left_text:
-        label: 'left text'
-        span: auto
-        type: text
-    slider1_center_text:
-        label: 'center text'
-        span: auto
-        type: text
-    slider2_left_text:
-        label: 'left text2'
-        span: auto
-        type: text
-    slider2_center_text:
-        label: 'center text2'
-        span: auto
-        type: text
     img_slider_1:
         label: 'File upload1'
         mode: file
@@ -41,3 +25,66 @@ fields:
             extension: auto
         span: auto
         type: fileupload
+    slider2_slide1_title:
+        label: slider2_slide1_title
+        span: auto
+        type: text
+    slider2_slide1_description:
+        label: slider2_slide1_description
+        size: ''
+        span: auto
+        type: textarea
+    slider2_slide2_title:
+        label: slider2_slide2_title
+        span: auto
+        type: text
+    slider2_slide2_description:
+        label: slider2_slide2_description
+        size: ''
+        span: auto
+        type: textarea
+    slider2_slide3_title:
+        label: slider2_slide3_title
+        span: auto
+        type: text
+    slider2_slide3_description:
+        label: slider2_slide3_description
+        size: ''
+        span: auto
+        type: textarea
+    slider1_left_text1:
+        label: slider1_left_text1
+        span: auto
+        type: text
+    slider1_left_text2:
+        label: slider1_left_text2
+        span: auto
+        type: text
+    slider1_left_text3:
+        label: slider1_left_text3
+        span: auto
+        type: text
+    slider1_center_text_line1:
+        label: slider1_center_text_line1
+        span: auto
+        type: text
+    slider1_center_text_line2:
+        label: slider1_center_text_line2
+        span: auto
+        type: text
+    slider1_center_text_line3:
+        label: slider1_center_text_line3
+        span: auto
+        type: text
+    slider1_center_text2_line1:
+        label: slider1_center_text2_line1
+        span: auto
+        type: text
+    slider1_center_text2_line2:
+        label: slider1_center_text2_line2
+        span: auto
+        type: text
+    slider1_center_text2_line3:
+        label: slider1_center_text2_line3
+        span: auto
+        type: text

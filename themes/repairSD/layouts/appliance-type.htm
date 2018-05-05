@@ -998,13 +998,13 @@ description = "appliance types layout"
 							</p>
 						</div>
 						<p class="text">
-							{{ record.slider1_center_text }}
+							{{ record.slider1_center_text_line1|raw }}
 						</p>
 						<p class="text">
-							{{ record.slider1_left_text }}
+							{{ record.slider1_center_text2_line1 }}
 						</p>
 						<div class="last">
-							<span>{{ record.slider1_centertext2 }}</span>
+							<span>{{ record.slider1_left_text1 }}</span>
 						</div>
 						<div class="app-type-slide-top-img">
 							{% for key,image in record.img_slider_2 %}
@@ -1028,13 +1028,13 @@ description = "appliance types layout"
 							</p>
 						</div>
 						<p class="text">
-							{{ record.slider1_center_text }}
+							{{ record.slider1_center_text_line2 }}
 						</p>
 						<p class="text">
-							{{ record.slider1_left_text }}
+							{{ record.slider1_center_text2_line2 }}
 						</p>
 						<div class="last">
-							<span>{{ record.slider1_centertext2 }}</span>
+							<span>{{ record.slider1_left_text2 }}</span>
 						</div>
 						<div class="app-type-slide-top-img">
 							{% for key,image in record.img_slider_2 %}
@@ -1058,13 +1058,13 @@ description = "appliance types layout"
 							</p>
 						</div>
 						<p class="text">
-							{{ record.slider1_center_text }}
+							{{ record.slider1_center_text_line3 }}
 						</p>
 						<p class="text">
-							{{ record.slider1_left_text }}
+							{{ record.slider1_center_text2_line3 }}
 						</p>
 						<div class="last">
-							<span>{{ record.slider1_centertext2 }}</span>
+							<span>{{ record.slider1_left_text3 }}</span>
 						</div>
 						<div class="app-type-slide-top-img">
 							{% for key,image in record.img_slider_2 %}
@@ -1104,10 +1104,9 @@ description = "appliance types layout"
 							{% endfor %}
 						</div>
 						<div class="type-slide-text">
-							<h2>{{record.type}} repair</h2>
+							<h2>{{record.slider2_slide1_title}} </h2>
 							<p>
-								Your oven has stopped working - it does not matter! Our service center performs competent oven repair in San Diego County, California. Qualified staff, the call of the master at home, the diagnosis of professional equipment, the availability of original spare parts, the provision of guarantees for the work performed - the advantages of our workshop. Long-term experience of our engineers allows us to quickly cope with even the most difficult breakdown. Need oven repair – call us!
-
+								{{record.slider2_slide1_description}}
 							</p>
 						</div>
 					</div>
@@ -1124,10 +1123,9 @@ description = "appliance types layout"
 							{% endfor %}
 						</div>
 						<div class="type-slide-text">
-							<h2>Electric oven repair</h2>
+							<h2>{{record.slider2_slide2_title}}</h2>
 							<p>
-								Electric ovens are one of the most powerful and sophisticated household appliances. Therefore, connection, installation and repair should be done by specialists, since incorrect actions can cause a fire or electric shock. As practice shows in the bulk of cases, an independent belt in the future costs, at least twice as much. Repair of electric ovens at home significantly reduces repair time and saves your finances for transportation.
-
+								{{record.slider2_slide2_description}}
 							</p>
 						</div>
 					</div>
@@ -1144,14 +1142,9 @@ description = "appliance types layout"
 							{% endfor %}
 						</div>
 						<div class="type-slide-text">
-							<h2>Gas oven repair</h2>
+							<h2>{{record.slider2_slide3_title}}</h2>
 							<p>
-								Service center "RepairSD" repairs gas oven in San Diego County.
-								Sometimes it happens with proper operation and observance of the recommendations written
-								in the operating instructions for the gas stove or oven, the equipment fails.
-								Broken gas ovens can be dangerous.
-								Therefore, you should immediately contact professionals who will help to reduce any risk.
-								No matter what your problem is, call us and we will eliminate it.
+								{{record.slider2_slide3_description}}
 							</p>
 						</div>
 					</div>

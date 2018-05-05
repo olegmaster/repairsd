@@ -1168,6 +1168,7 @@ $this['data'] = $data;
 				<div class="container">
 					{% component 'contactform' %}
 				</div>
+				{{ errors.first('email') }}
 			</div>
 			<div class="row contact-info">
 				<div class="container contact-us">

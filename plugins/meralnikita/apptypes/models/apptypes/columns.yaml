@@ -4,12 +4,3 @@ columns:
         type: text
         searchable: true
         sortable: true
-    svg:
-        label: SVG
-        type: text
-    img_slider_1:
-        label: images
-        type: text
-    img_slider_2:
-        label: images
-        type: text
