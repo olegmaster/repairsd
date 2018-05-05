@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Contact
+
+# Model Form Field configuration
+form: $/meral/setup/models/contact/fields.yaml
+
+# Model Class name
+modelClass: Meral\Setup\Models\Contact
+
+# Default redirect location
+defaultRedirect: meral/setup/contact
+
+# Create page
+create:
+    title: Create Contact
+    redirect: meral/setup/contact/update/:id
+    redirectClose: meral/setup/contact
+
+# Update page
+update:
+    title: Edit Contact
+    redirect: meral/setup/contact
+    redirectClose: meral/setup/contact
+
+# Preview page
+preview:
+    title: Preview Contact
