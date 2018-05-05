@@ -1,0 +1,6 @@
+plugin:
+    name: 'contactform.contactform::lang.plugin.name'
+    description: 'contactform.contactform::lang.plugin.description'
+    author: contactform
+    icon: oc-icon-adjust
+    homepage: ''

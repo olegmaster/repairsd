@@ -1,0 +1,11 @@
+plugin:
+    name: contactInfo
+    description: 'meralnikita.contactindfo::lang.plugin.description'
+    author: meralnikita
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: 'Contact Info'
+        url: meralnikita/contactindfo/contactinfo
+        icon: icon-life-ring

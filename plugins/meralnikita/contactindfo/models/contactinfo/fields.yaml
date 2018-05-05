@@ -1,0 +1,13 @@
+fields:
+    contact_text:
+        label: 'Text in contact page'
+        span: auto
+        type: text
+    email:
+        label: Email
+        span: auto
+        type: text
+    phone:
+        label: 'phone number'
+        span: auto
+        type: text

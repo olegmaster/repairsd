@@ -1,0 +1,10 @@
+name: ContactInfo
+form: $/meralnikita/contactindfo/models/contactinfo/fields.yaml
+modelClass: Meralnikita\ContactindFo\Models\ContactInfo
+defaultRedirect: meralnikita/contactindfo/contactinfo
+create:
+    redirect: 'meralnikita/contactindfo/contactinfo/update/:id'
+    redirectClose: meralnikita/contactindfo/contactinfo
+update:
+    redirect: meralnikita/contactindfo/contactinfo
+    redirectClose: meralnikita/contactindfo/contactinfo

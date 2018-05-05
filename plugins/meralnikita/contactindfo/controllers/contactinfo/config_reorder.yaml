@@ -1,0 +1,4 @@
+title: ContactInfo
+modelClass: Meralnikita\ContactindFo\Models\ContactInfo
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+columns:
+    contact_text:
+        label: 'Text in contact'
+        type: text
+    email:
+        label: email
+        type: text
+    phone:
+        label: phone
+        type: text

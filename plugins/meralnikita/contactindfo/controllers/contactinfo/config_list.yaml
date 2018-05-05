@@ -1,0 +1,11 @@
+title: ContactInfo
+modelClass: Meralnikita\ContactindFo\Models\ContactInfo
+list: $/meralnikita/contactindfo/models/contactinfo/columns.yaml
+recordUrl: 'meralnikita/contactindfo/contactinfo/update/:id'
+noRecordsMessage: 'backend::lang.list.no_records'
+recordsPerPage: 20
+showSorting: 0
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
