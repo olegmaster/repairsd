@@ -17,10 +17,15 @@ class Post extends ComponentBase
      */
     public $categoryPage;
 
+    /**
+     * @var array Array of similar posts that have similar category with current post
+     */
+    public $similar;
+
     public function componentDetails()
     {
         return [
-            'name'        => 'rainlab.blog::lang.settings.post_title',
+            'name' => 'rainlab.blog::lang.settings.post_title',
             'description' => 'rainlab.blog::lang.settings.post_description'
         ];
     }
@@ -29,16 +34,16 @@ class Post extends ComponentBase
     {
         return [
             'slug' => [
-                'title'       => 'rainlab.blog::lang.settings.post_slug',
+                'title' => 'rainlab.blog::lang.settings.post_slug',
                 'description' => 'rainlab.blog::lang.settings.post_slug_description',
-                'default'     => '{{ :slug }}',
-                'type'        => 'string'
+                'default' => '{{ :slug }}',
+                'type' => 'string'
             ],
             'categoryPage' => [
-                'title'       => 'rainlab.blog::lang.settings.post_category',
+                'title' => 'rainlab.blog::lang.settings.post_category',
                 'description' => 'rainlab.blog::lang.settings.post_category_description',
-                'type'        => 'dropdown',
-                'default'     => 'blog/category',
+                'type' => 'dropdown',
+                'default' => 'blog/category',
             ],
         ];
     }
@@ -50,8 +55,11 @@ class Post extends ComponentBase
 
     public function onRun()
     {
+        $postModel = new BlogPost();
         $this->categoryPage = $this->page['categoryPage'] = $this->property('categoryPage');
         $this->post = $this->page['post'] = $this->loadPost();
+        $this->similar = $this->page['similar'] = $postModel->loadSimilarPosts($this->post);
+        dd($this->similar);
     }
 
     public function onRender()
@@ -60,6 +68,22 @@ class Post extends ComponentBase
             $this->post = $this->page['post'] = $this->loadPost();
         }
     }
+
+//    /**
+//     * Load similar as current post
+//     */
+//    protected function loadSimilarPosts()
+//    {
+//
+//        $postId = $this->post->id;
+//        $posts = \RainLab\Blog\Models\Post::all();
+//
+//        //dd($this->post->categories->count());
+//        if ($postId && $this->post->categories->count()) {
+//            $similarPosts = $posts->belongsToMany('\RainLab\Blog\Models\Categories');
+//            dd($similarPosts);
+//        }
+//    }
 
     protected function loadPost()
     {
@@ -81,7 +105,7 @@ class Post extends ComponentBase
          * Add a "url" helper attribute for linking to each category
          */
         if ($post && $post->categories->count()) {
-            $post->categories->each(function($category) {
+            $post->categories->each(function ($category) {
                 $category->setUrl($this->categoryPage, $this->controller);
             });
         }
@@ -115,7 +139,7 @@ class Post extends ComponentBase
 
         $post->setUrl($postPage, $this->controller);
 
-        $post->categories->each(function($category) {
+        $post->categories->each(function ($category) {
             $category->setUrl($this->categoryPage, $this->controller);
         });
 

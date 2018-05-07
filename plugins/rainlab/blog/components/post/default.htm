@@ -1,4 +1,5 @@
 {% set post = __SELF__.post %}
+{% set similar = __SELF__.similar %}
 
 
 <div class="article-single-block">
@@ -32,4 +33,15 @@
 
         </ul>
     </div>
+</div>
+<div class="asd" style="height: 100px;width: 300px">
+    {% for similarPost in similar %}
+    <p style="width: 50px">sdsad</p>
+    <p>
+        {{ similarPost.title }}
+    </p>
+    <p>
+        {{ similarPost.content }}
+    </p>
+    {% endfor %}
 </div>

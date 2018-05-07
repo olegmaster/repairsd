@@ -112,18 +112,65 @@ class Post extends Model
         if (!$user->hasAnyAccess(['rainlab.blog.access_publish'])) {
             $fields->published->hidden = true;
             $fields->published_at->hidden = true;
-        }
-        else {
+        } else {
             $fields->published->hidden = false;
             $fields->published_at->hidden = false;
         }
     }
 
+    /**
+     * @param $post
+     * need to create many-to-many
+     */
+//    public function postsRelation(){
+//        return $this->belongsToMany('RainLab\Blog\Models\Category')->withPivot('category_id');
+//    }
+
+    public function loadSimilarPosts($post)
+    {
+        $ids = [];
+        $postId = $post->id;
+        $categoriesId = DB::table('rainlab_blog_posts_categories')
+            ->where('post_id', '=', $postId)
+            ->pluck('category_id');
+
+        $similarPosts = null;
+        if ($postId && $post->categories->count()) {
+            $similarPosts = DB::table('rainlab_blog_posts')
+                ->leftJoin('rainlab_blog_posts_categories', 'post_id', '=', 'rainlab_blog_posts.id')
+                ->leftJoin('rainlab_blog_categories', 'rainlab_blog_categories.id', '=', 'rainlab_blog_posts_categories.category_id')
+                ->where('rainlab_blog_posts_categories.category_id', '=', $categoriesId)
+                ->limit(3)
+                ->get();
+
+            foreach ($similarPosts as $key => $similarPost) {
+                $ids[$key] = $similarPosts[$key]->post_id;
+            }
+
+            $similarPosts->categories = DB::table('rainlab_blog_categories')
+                ->select('name', 'slug')
+                ->whereIn('rainlab_blog_categories.id', function ($query, $ids) {
+                    $query
+                        ->select('rainlab_blog_posts_categories.category_id')
+                        ->from('rainlab_blog_posts_categories')
+                        ->whereIn('rainlab_blog_posts_categories.post_id', $ids)
+                        ->pluck();
+                    dd($query);
+                })
+                ->get();
+
+        } else {
+            $similarPosts = "netu";
+        }
+        return $similarPosts;
+    }
+
+
     public function afterValidate()
     {
         if ($this->published && !$this->published_at) {
             throw new ValidationException([
-               'published_at' => Lang::get('rainlab.blog::lang.post.published_validation')
+                'published_at' => Lang::get('rainlab.blog::lang.post.published_validation')
             ]);
         }
     }
@@ -141,7 +188,7 @@ class Post extends Model
     public function setUrl($pageName, $controller)
     {
         $params = [
-            'id'   => $this->id,
+            'id' => $this->id,
             'slug' => $this->slug,
         ];
 
@@ -193,8 +240,7 @@ class Post extends Model
             ->whereNotNull('published')
             ->where('published', true)
             ->whereNotNull('published_at')
-            ->where('published_at', '<', Carbon::now())
-        ;
+            ->where('published_at', '<', Carbon::now());
     }
 
     /**
@@ -211,13 +257,13 @@ class Post extends Model
          * Default options
          */
         extract(array_merge([
-            'page'       => 1,
-            'perPage'    => 30,
-            'sort'       => 'created_at',
+            'page' => 1,
+            'perPage' => 30,
+            'sort' => 'created_at',
             'categories' => null,
-            'category'   => null,
-            'search'     => '',
-            'published'  => true,
+            'category' => null,
+            'search' => '',
+            'published' => true,
             'exceptPost' => null,
         ], $options));
 
@@ -233,8 +279,7 @@ class Post extends Model
         if ($exceptPost) {
             if (is_numeric($exceptPost)) {
                 $query->where('id', '<>', $exceptPost);
-            }
-            else {
+            } else {
                 $query->where('slug', '<>', $exceptPost);
             }
         }
@@ -274,7 +319,7 @@ class Post extends Model
          */
         if ($categories !== null) {
             if (!is_array($categories)) $categories = [$categories];
-            $query->whereHas('categories', function($q) use ($categories) {
+            $query->whereHas('categories', function ($q) use ($categories) {
                 $q->whereIn('id', $categories);
             });
         }
@@ -286,7 +331,7 @@ class Post extends Model
             $category = Category::find($category);
 
             $categories = $category->getAllChildrenAndSelf()->lists('id');
-            $query->whereHas('categories', function($q) use ($categories) {
+            $query->whereHas('categories', function ($q) use ($categories) {
                 $q->whereIn('id', $categories);
             });
         }
@@ -296,13 +341,13 @@ class Post extends Model
 
     /**
      * Allows filtering for specifc categories
-     * @param  Illuminate\Query\Builder  $query      QueryBuilder
-     * @param  array                     $categories List of category ids
+     * @param  Illuminate\Query\Builder $query QueryBuilder
+     * @param  array $categories List of category ids
      * @return Illuminate\Query\Builder              QueryBuilder
      */
     public function scopeFilterCategories($query, $categories)
     {
-        return $query->whereHas('categories', function($q) use ($categories) {
+        return $query->whereHas('categories', function ($q) use ($categories) {
             $q->whereIn('id', $categories);
         });
     }
@@ -388,8 +433,7 @@ class Post extends Model
         return $query
             ->where('id', '<>', $this->id)
             ->whereDate($attribute, $directionOperator, $this->$attribute)
-            ->orderBy($attribute, $directionOrder)
-        ;
+            ->orderBy($attribute, $directionOrder);
     }
 
     /**
@@ -444,8 +488,8 @@ class Post extends Model
             }
 
             $result = [
-                'references'   => $references,
-                'nesting'      => false,
+                'references' => $references,
+                'nesting' => false,
                 'dynamicItems' => false
             ];
         }
@@ -524,20 +568,19 @@ class Post extends Model
             $result['url'] = $pageUrl;
             $result['isActive'] = $pageUrl == $url;
             $result['mtime'] = $category->updated_at;
-        }
-        elseif ($item->type == 'all-blog-posts') {
+        } elseif ($item->type == 'all-blog-posts') {
             $result = [
                 'items' => []
             ];
 
             $posts = self::isPublished()
-            ->orderBy('title')
-            ->get();
+                ->orderBy('title')
+                ->get();
 
             foreach ($posts as $post) {
                 $postItem = [
                     'title' => $post->title,
-                    'url'   => self::getPostPageUrl($item->cmsPage, $post, $theme),
+                    'url' => self::getPostPageUrl($item->cmsPage, $post, $theme),
                     'mtime' => $post->updated_at,
                 ];
 

@@ -70,6 +70,10 @@ class Categories extends ComponentBase
         $this->categories = $this->page['categories'] = $this->loadCategories();
     }
 
+    public function categoriesRelation(){
+        return $this->belongsToMany('RainLab\Blog\Models\Post')->withPivot('post_id');
+    }
+
     /**
      * Load all categories or, depending on the <displayEmpty> option, only those that have blog posts
      * @return mixed
