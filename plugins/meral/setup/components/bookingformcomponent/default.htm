@@ -1,5 +1,37 @@
+<script>
+    $(document).ready(function(){
 
-<form data-request="onSubmitForm" method = "POST">
+        $("#bookingform").submit(function(e){
+
+            let message = validate();
+            if(message != 'success'){
+                e.preventDefault();
+                alert(message)
+            }
+
+        });
+
+        function validate(){
+            console.log( $('#app-type option:checked').val());
+            if($('#app-type option:checked').val() == "Applience Type"){
+                return "Choose Applience Type";
+            }
+            if($('#brand option:checked').val() == "Brand"){
+                return "Choose Brand";
+            }
+            if($('#date option:checked').val() == "Appointment Date"){
+                return "Choose Date";
+            }
+            if($('#time option:checked').val() == "Time"){
+                return "Choose Time";
+            }
+            return 'success';
+        }
+    })
+</script>
+
+
+<form id="bookingform" data-request="onSubmitForm" method = "POST">
     <div>
         <div class="form-group">
             <label for="app-type" class="select">
@@ -18,12 +50,44 @@
             <label for="brand" class="select">
                 <select id="brand" name="brand">
                     <option disabled selected hidden>Brand</option>
-                    <option>Doesn't Matter</option>
-                    <option>Today</option>
-                    <option>Tomorrow</option>
-                    <option>Within Next 2 Days</option>
-                    <option>Within Next 3 Days</option>
-                    <option>Within Next Week</option>
+                    <option>Admiral</option>
+                    <option>Amana</option>
+                    <option>Asko</option>
+                    <option>Avanti</option>
+                    <option>Bosh</option>
+                    <option>Dacor</option>
+                    <option>Electrolux</option>
+                    <option>Fisher&Paylel</option>
+                    <option>Frigidaire</option>
+                    <option>Ge Appliances</option>
+                    <option>Profile</option>
+                    <option>Haier.</option>
+                    <option>Hotpoint</option>
+                    <option>jenn-ar.</option>
+                    <option>Kenmore</option>
+                    <option>KitchenAid</option>
+                    <option>LG</option>
+                    <option>Magic Chef</option>
+                    <option>Marvel</option>
+                    <option>Maytag</option>
+                    <option>Miele</option>
+                    <option>Monogram</option>
+                    <option>Panasonic</option>
+                    <option>RCA</option>
+                    <option>Roper</option>
+                    <option>Samsung</option>
+                    <option>Sanyo</option>
+                    <option>Sears</option>
+                    <option>Sharp</option>
+                    <option>Sub-Zero</option>
+                    <option>Summit</option>
+                    <option>Tappan</option>
+                    <option>Thermador</option>
+                    <option>U-Line</option>
+                    <option>Viking</option>
+                    <option>Whirlpool</option>
+                    <option>Wolf</option>
+                    <option>Frigidaire</option>
                 </select>
             </label>
             <label for="date" class="select">
@@ -54,21 +118,21 @@
                 </select>
             </label>
             <label for="name">
-                <input type="text" id="name" placeholder="Name" name="name">
+                <input type="text" id="name" placeholder="Name" name="name" required>
             </label>
         </div>
         <div class="form-group">
             <label for="address">
-                <input type="text" id="address" placeholder="Address" name="address">
+                <input type="text" id="address" placeholder="Address" name="address" required>
             </label>
             <label for="city">
-                <input type="text" id="city" placeholder="City" name="city">
+                <input type="text" id="city" placeholder="City" name="city"  required>
             </label>
             <label for="phone">
-                <input type="number" id="phone" placeholder="Phone" name="phone">
+                <input type="number" id="phone" placeholder="Phone" name="phone" required>
             </label>
             <label for="problem">
-                <textarea id="problem" rows="1 " placeholder="Problem" name="problem"></textarea>
+                <textarea id="problem" rows="1 " placeholder="Problem" name="problem" required></textarea>
             </label>
         </div>
     </div>
@@ -77,7 +141,7 @@
 {% flash %}
 <div class="alert alert-success">
     <p data-control="flash-message" data-interval="5" class="success">
-    {{ message }}
+        {{ message }}
     </p>
 </div>
 {% endflash %}

@@ -63,7 +63,8 @@ class Plugin extends PluginBase
             'meral\setup\components\Showbookings' => 'showbookings',
             'meral\setup\components\Reviewform' => 'reviewform',
             'meral\setup\components\Showstatistic' => 'statistic',
-            'meral\setup\components\Contactform' => 'contactform'
+            'meral\setup\components\Contactform' => 'contactform',
+            'meral\setup\components\Bookform' => 'bookform'
 
         ];
     }
