@@ -147,17 +147,17 @@ class Post extends Model
                 $ids[$key] = $similarPosts[$key]->post_id;
             }
 
-            $similarPosts->categories = DB::table('rainlab_blog_categories')
-                ->select('name', 'slug')
-                ->whereIn('rainlab_blog_categories.id', function ($query, $ids) {
-                    $query
-                        ->select('rainlab_blog_posts_categories.category_id')
-                        ->from('rainlab_blog_posts_categories')
-                        ->whereIn('rainlab_blog_posts_categories.post_id', $ids)
-                        ->pluck();
-                    dd($query);
-                })
-                ->get();
+//            $similarPosts->categories = DB::table('rainlab_blog_categories')
+//                ->select('name', 'slug')
+//                ->whereIn('rainlab_blog_categories.id', function ($query, $ids) {
+//                    $query
+//                        ->select('rainlab_blog_posts_categories.category_id')
+//                        ->from('rainlab_blog_posts_categories')
+//                        ->whereIn('rainlab_blog_posts_categories.post_id', $ids)
+//                        ->pluck();
+//                    dd($query);
+//                })
+//                ->get();
 
         } else {
             $similarPosts = "netu";

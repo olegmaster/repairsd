@@ -41,7 +41,6 @@ $(document).ready(function() {
         infinite: true,
         arrows: false,
         dots: true,
-        initialSlide: 1,
         slidesToShow: 1,
         slidesToScroll: 1
     });
@@ -149,6 +148,14 @@ $(document).ready(function() {
         return false;
     });
 
+    /*Modal Brands*/
+    $('#brand-btm .brands-modal').slick({
+        arrows: false,
+        dots: true,
+        vertical: true
+
+    });
+
     /*Slider reviews*/
     var $slider=$("#slider-reviews");
     var slideLength = $("#slider-reviews > .slide-review").length-1;
@@ -206,7 +213,7 @@ $(document).ready(function() {
         slidesToShow: 1,
         slidesToScroll: 1,
         vertical:true,
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 2000
     });
 
@@ -240,19 +247,59 @@ $(document).ready(function() {
     $('#articles .articles-page').slick({
         dots: true,
         infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 3,
         speed: 1000,
-        fade: true,
+        vertical: true,
         cssEase: 'linear'
     });
-    $('#articles .articles-page').prepend($('#articles .articles-page .slick-list'));
+    $('#articles .articles-page').append('<div class="slick-nav">');
+    $('#articles .articles-page .slick-nav').append($('#articles .articles-page .slick-prev'));
+    $('#articles .articles-page .slick-nav').append($('#articles .articles-page .slick-dots'));
+    $('#articles .articles-page .slick-nav').append($('#articles .articles-page .slick-next'));
 
     /*Appliance Type Page Tabs Advantages*/
-    $(".button-circle:nth-child(2) a").hover(function () {
-        $(".circle3").toggleClass("headphones");
-    })
-    $(".circle2 .button-circle a").hover(function() {
-        $(".circle3").toggleClass("tools");
+    /*Headphones*/
+    $(".button-circle.btnc2 a").focus(function(){
+        $('.circle3').addClass('headphones');
+        $('.button-circle.btnc2').addClass("btn-bg")
+    }).blur(function(){
+        $('.circle3').removeClass('headphones');
+        $('.button-circle.btnc2').removeClass("btn-bg")
     });
+    $(".button-circle.btnc2 a").hover(
+        function() {
+            $( '.circle3' ).css('transform', 'rotate(-120deg)');
+        }, function() {
+            $( '.circle3' ).css('transform', 'rotate(0deg)');
+        }
+    );
+    /*Search*/
+    $(".button-circle.btnc1 a").focus(function(){
+        $('.circle3').addClass('search');
+        $('.button-circle.btnc1').addClass("btn-bg")
+    }).blur(function(){
+        $('.circle3').removeClass('search');
+        $('.button-circle.btnc1').removeClass("btn-bg")
+    });
+    /*Tools*/
+    $(".button-circle.btnc3 a").focus(function(){
+        $('.circle3').addClass('tools');
+        $('.button-circle.btnc3').addClass("btn-bg")
+    }).blur(function(){
+        $('.circle3').removeClass('tools');
+        $('.button-circle.btnc3').removeClass("btn-bg")
+    });
+    $(".button-circle.btnc3 a").hover(
+        function() {
+            $( '.circle3' ).css('transform', 'rotate(120deg)');
+        }, function() {
+            $( '.circle3' ).css('transform', 'rotate(0deg)');
+        }
+    );
+
+
+
 
     /*SlideDown from H1 button to form*/
     $(".background").on("click","a", function (event) {
@@ -261,6 +308,9 @@ $(document).ready(function() {
             top = $(id).offset().top -350;
         $('body,html').animate({scrollTop: top}, 1000);
         $("#articles #app-type").focus();
+        $("#testimonials #app-type").focus();
+        $("#applience-type-page #app-type").focus();
+        $("#home-page #app-type").focus();
         $("#contact-page #name").focus();
     });
 

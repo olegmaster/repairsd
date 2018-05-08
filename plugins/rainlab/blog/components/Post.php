@@ -59,7 +59,7 @@ class Post extends ComponentBase
         $this->categoryPage = $this->page['categoryPage'] = $this->property('categoryPage');
         $this->post = $this->page['post'] = $this->loadPost();
         $this->similar = $this->page['similar'] = $postModel->loadSimilarPosts($this->post);
-        dd($this->similar);
+       // dd($this->similar);
     }
 
     public function onRender()

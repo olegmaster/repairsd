@@ -1015,10 +1015,10 @@ categoryPage = "article-category"
 				<div class="review-menu">
 					<h1>We Appreciate Every Customer`s Opinion</h1>
 					<p>Leave Feedback on Our Site</p>
-					<a href="">WRITE REVIEW</a>
+					<a href="#contact-form">WRITE REVIEW</a>
 				</div>
 			</div>
-			<div class="row form">
+			<div class="row form" id="contact-form">
 				<div class="container">
 					{% component 'bookingformcomponent' %}
 				</div>
@@ -1047,7 +1047,7 @@ categoryPage = "article-category"
 				</svg>
             </button>
             <div class="modal fixed-form left fade" id="modal_form" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-         {% component 'bookingformcomponent' %}
+         {% partial 'bookform' %}
          </div>
 			  <button class="btn-modal-forms" id="modal-call-btn" type="button" data-toggle="modal" data-target="#modal_call">
                 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 666 666" style="enable-background:new 0 0 666 666;" xml:space="preserve">
@@ -1091,8 +1091,10 @@ categoryPage = "article-category"
 				</svg>
 </button>
 {% component 'reviewform' %}
+			{% partial 'modalfooter' %}
 		</main>
     <footer>
+
     {% partial 'site/footer' %}
     </footer>
     <script type='text/javascript' src="{{ 'assets/js/coverflow-slideshow.js'|theme }}"></script>

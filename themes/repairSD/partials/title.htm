@@ -5,5 +5,9 @@ description = "tt"
 [viewBag]
 ==
 {% for i in infoSite.getInfo %} <!--Вызывем метод getPosts в нашем компоненте и проходимся циклом по полученынм запиям!-->
-<h1>{{ i.headerTitle }}</h1>
+<div class="review-menu">
+    <h1>{{ i.headerTitle }}</h1>
+    <p>You can Get <span>20% off</span> Today</p>
+    <a href="#contact-form">APPLIANCE NOW</a>
+</div>
 {% endfor %}

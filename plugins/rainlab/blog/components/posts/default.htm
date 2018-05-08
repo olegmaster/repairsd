@@ -3,7 +3,6 @@
 
     {% for post in posts %}
     <div class="article-single">
-        <h3>{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</h3>
         <div class="text-articles">
             <p class="excerpt"> {{ post.summary|raw|length > 100 ? post.summary|raw|slice(0, 100) ~ '...' : post.summary|raw
                 }}</p>
@@ -24,6 +23,8 @@
             </div>
             <span class="number"></span>
             <div class="image-articles">
+                <h3>{{ post.title|length > 30 ? post.title|slice(0, 30) ~ '...' :post.title }}</h3>
+
                 {% if post.featured_images.count %}
                 <div class="posts-image" >
                     {% for image in post.featured_images %}
@@ -31,7 +32,6 @@
                     {% endfor %}
                 </div>
                 {% endif %}
-                <span class="article-date">{{ post.published_at|date("d.m.Y") }}</span>
             </div>
         </div>
         <span class="comment">Solutions of Widespread Problems</span>
