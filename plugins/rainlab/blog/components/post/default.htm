@@ -49,21 +49,19 @@
                     </p>
                     <a class="read-more" href=/article/{{ similarPost.slug }}>Read more</a>
                     <ul class="tags">
+                        {% for category in similarPost.categories %}
                         <li>
-                            <a href="#">repair</a>
+                            <a href="#">{{category.name}}</a>
                         </li>
-                        <li>
-                            <a href="#">AC</a>
-                        </li>
-                        <li>
-                            <a href="#">replace</a>
-                        </li>
+                        {% endfor %}
                     </ul>
                     <span class="number"></span>
                     <div class="image-articles">
                         {% if similarPost.featured_images is not empty %}
                             <img src={{similarPost.featured_images[0].path}}>
                         {% endif %}
+
+                        {{similarPost.category}}
 
 
 

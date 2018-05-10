@@ -80,14 +80,14 @@ class Post extends ComponentBase
 
 
 //            echo "<pre>";
-//            print_r($similarPost->get()[0]->featured_images[0]);
+//            print_r($similarPost->get()[0]->categories[0]->name);
 //            echo "</pre>";
 
 
 
         }
 
-//        die();
+        //die();
 
 
 
