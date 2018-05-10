@@ -10,17 +10,17 @@
                 {{ post.content_html|raw }}
             </p>
             <span class="article-date">{{ post.published_at|date('d.m') }}</span>
-            <!--<div class="image-articles">-->
-                <!--{% for key,image in post.featured_images %}-->
+            <div class="image-articles">
+                {% for key,image in post.featured_images %}
 
-                    <!--<img-->
-                            <!--data-src="{{ image.filename }}"-->
-                            <!--src="{{ image.path }}"-->
-                            <!--alt="{{ image.description }}"-->
-                            <!--style="max-width: 485px; min-height: 410px;max-height: 410px" />-->
+                    <img
+                            data-src="{{ image.filename }}"
+                            src="{{ image.path }}"
+                            alt="{{ image.description }}"
+                            style="max-width: 485px; min-height: 410px;max-height: 410px" />
 
-                <!--{% endfor %}-->
-            <!--</div>-->
+                {% endfor %}
+            </div>
         </div>
         <ul class="tags">
             {% if post.categories.count %}
