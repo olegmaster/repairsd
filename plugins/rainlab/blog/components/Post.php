@@ -58,7 +58,39 @@ class Post extends ComponentBase
         $postModel = new BlogPost();
         $this->categoryPage = $this->page['categoryPage'] = $this->property('categoryPage');
         $this->post = $this->page['post'] = $this->loadPost();
-        $this->similar = $this->page['similar'] = $postModel->loadSimilarPosts($this->post);
+        $this->similar =
+
+        $similarId = $this->page['similar'] = $postModel->loadSimilarPosts($this->post);
+        if(count($similarId) > 0){
+
+            $ids = [];
+
+            $similarIdToArray = $similarId->toArray();
+
+            foreach($similarIdToArray as $elem){
+                $ids[] = $elem->id;
+
+            }
+
+            $similarPost = new BlogPost();
+            $similarPost->find($ids);
+
+            $this->similar = $similarPost->get();
+
+
+
+//            echo "<pre>";
+//            print_r($similarPost->get()[0]->featured_images[0]);
+//            echo "</pre>";
+
+
+
+        }
+
+//        die();
+
+
+
        // dd($this->similar);
     }
 

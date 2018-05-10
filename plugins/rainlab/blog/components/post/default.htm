@@ -45,10 +45,9 @@
                 <h3> {{ similarPost.title }}</h3>
                 <div class="text-articles">
                     <p>
-                        {{ similarPost.p_slug }}
                         {{ similarPost.excerpt }}
                     </p>
-                    <a class="read-more" href=/article/{{ similarPost.p_slug }}>Read more</a>
+                    <a class="read-more" href=/article/{{ similarPost.slug }}>Read more</a>
                     <ul class="tags">
                         <li>
                             <a href="#">repair</a>
@@ -62,12 +61,15 @@
                     </ul>
                     <span class="number"></span>
                     <div class="image-articles">
-                        <img src="/storage/app/media/article-img1.png">
+                        {% if similarPost.featured_images is not empty %}
+                            <img src={{similarPost.featured_images[0].path}}>
+                        {% endif %}
+
+
+
                     </div>
                 </div>
             </div>
-
-
 
 
             {% endfor %}
