@@ -137,15 +137,20 @@ class Post extends Model
         $similarPosts = null;
         if ($postId && $post->categories->count()) {
             $similarPosts = DB::table('rainlab_blog_posts')
+                ->select('rainlab_blog_posts.slug as p_slug', 'rainlab_blog_posts.id', 'rainlab_blog_posts.content', 'rainlab_blog_posts.excerpt')
                 ->leftJoin('rainlab_blog_posts_categories', 'post_id', '=', 'rainlab_blog_posts.id')
                 ->leftJoin('rainlab_blog_categories', 'rainlab_blog_categories.id', '=', 'rainlab_blog_posts_categories.category_id')
                 ->where('rainlab_blog_posts_categories.category_id', '=', $categoriesId)
                 ->limit(3)
                 ->get();
 
-            foreach ($similarPosts as $key => $similarPost) {
-                $ids[$key] = $similarPosts[$key]->post_id;
-            }
+//            foreach ($similarPosts as $key => $similarPost) {
+//                //$ids[$key] = $similarPosts[$key]->post_id;
+//                echo "<pre>";
+//                print_r($similarPost);
+//                echo "</pre>";
+//            }
+//            die();
 
 //            $similarPosts->categories = DB::table('rainlab_blog_categories')
 //                ->select('name', 'slug')

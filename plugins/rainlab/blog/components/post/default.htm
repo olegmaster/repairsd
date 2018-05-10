@@ -10,17 +10,17 @@
                 {{ post.content_html|raw }}
             </p>
             <span class="article-date">{{ post.published_at|date('d.m') }}</span>
-            <div class="image-articles">
-                {% for key,image in post.featured_images %}
+            <!--<div class="image-articles">-->
+                <!--{% for key,image in post.featured_images %}-->
 
-                    <img
-                            data-src="{{ image.filename }}"
-                            src="{{ image.path }}"
-                            alt="{{ image.description }}"
-                            style="max-width: 485px; min-height: 410px;max-height: 410px" />
+                    <!--<img-->
+                            <!--data-src="{{ image.filename }}"-->
+                            <!--src="{{ image.path }}"-->
+                            <!--alt="{{ image.description }}"-->
+                            <!--style="max-width: 485px; min-height: 410px;max-height: 410px" />-->
 
-                {% endfor %}
-            </div>
+                <!--{% endfor %}-->
+            <!--</div>-->
         </div>
         <ul class="tags">
             {% if post.categories.count %}
@@ -34,14 +34,72 @@
         </ul>
     </div>
 </div>
-<div class="asd" style="height: 100px;width: 300px">
-    {% for similarPost in similar %}
-    <p style="width: 50px">sdsad</p>
-    <p>
-        {{ similarPost.title }}
-    </p>
-    <p>
-        {{ similarPost.content }}
-    </p>
-    {% endfor %}
+
+<div class="container article-slider-tags-bg">
+    <div class="col-md-9 article-slider-block">
+        <div id="itemlist">
+
+            {% for similarPost in similar %}
+
+            <div class="article-single">
+                <h3> {{ similarPost.title }}</h3>
+                <div class="text-articles">
+                    <p>
+                        {{ similarPost.p_slug }}
+                        {{ similarPost.excerpt }}
+                    </p>
+                    <a class="read-more" href=/article/{{ similarPost.p_slug }}>Read more</a>
+                    <ul class="tags">
+                        <li>
+                            <a href="#">repair</a>
+                        </li>
+                        <li>
+                            <a href="#">AC</a>
+                        </li>
+                        <li>
+                            <a href="#">replace</a>
+                        </li>
+                    </ul>
+                    <span class="number"></span>
+                    <div class="image-articles">
+                        <img src="/storage/app/media/article-img1.png">
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            {% endfor %}
+
+        </div>
+        <div class="arrows">
+            <button class="arrow_up">
+            </button>
+            <ul>
+                <li>
+                    <button class="cercle" data-id=2>
+                    </button>
+                </li>
+                <li>
+                    <button class="cercle" data-id=1>
+                    </button>
+                </li>
+                <li>
+                    <button class="cercle active" data-id=0>
+                    </button>
+                </li>
+            </ul>
+            <button class="arrow_down">
+            </button>
+        </div>
+    </div>
+    <div class="col-md-3 services-info">
+        <h2>Associated Articles</h2>
+        <p>
+            Here you can see the useful articles, which are associated with a certain category of home appliances.
+            We are sure, that you will find all necessary answers to the particular questions.
+        </p>
+    </div>
 </div>
+<script type='text/javascript' src='/plugins/rainlab/blog/assets/js/coverflow-slideshow.js'></script>

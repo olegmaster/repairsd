@@ -36,6 +36,7 @@ class Posts extends Controller
         $this->vars['postsDrafts'] = $this->vars['postsTotal'] - $this->vars['postsPublished'];
 
         $this->asExtension('ListController')->index();
+
     }
 
     public function create()

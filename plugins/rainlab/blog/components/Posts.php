@@ -139,6 +139,8 @@ class Posts extends ComponentBase
     {
         $this->prepareVars();
 
+
+
         $this->category = $this->page['category'] = $this->loadCategory();
         $this->posts = $this->page['posts'] = $this->listPosts();
 

@@ -87,6 +87,8 @@ class Post extends ComponentBase
 
     protected function loadPost()
     {
+
+
         $slug = $this->property('slug');
 
         $post = new BlogPost;
