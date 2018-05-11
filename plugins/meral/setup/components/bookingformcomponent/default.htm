@@ -1,37 +1,55 @@
+
 <script>
-    $(document).ready(function(){
-
-        $("#bookingform").submit(function(e){
-
-            let message = validate();
-            if(message != 'success'){
-                e.preventDefault();
-                alert(message)
-            }
-
-        });
-
-        function validate(){
-            console.log( $('#app-type option:checked').val());
-            if($('#app-type option:checked').val() == "Applience Type"){
-                return "Choose Applience Type";
-            }
-            if($('#brand option:checked').val() == "Brand"){
-                return "Choose Brand";
-            }
-            if($('#date option:checked').val() == "Appointment Date"){
-                return "Choose Date";
-            }
-            if($('#time option:checked').val() == "Time"){
-                return "Choose Time";
-            }
-            return 'success';
+    function updateFormErrors(data)
+    {
+        if ($(data).prop('app-type'))
+        {
+            $('#app-type').addClass('invalid');
         }
-    })
+
+        if ($(data).prop('brand'))
+        {
+            $('#brand').addClass('invalid');
+        }
+
+        if ($(data).prop('date'))
+        {
+            $('#date').addClass('invalid');
+        }
+
+        if ($(data).prop('time'))
+        {
+            $('#time').addClass('invalid');
+        }
+
+        if ($(data).prop('name'))
+        {
+            $('#name').addClass('invalid');
+        }
+
+        if ($(data).prop('address'))
+        {
+            $('#address').addClass('invalid');
+        }
+
+        if ($(data).prop('city'))
+        {
+            $('#city').addClass('invalid');
+        }
+
+        if ($(data).prop('phone'))
+        {
+            $('#phone').addClass('invalid');
+        }
+
+        if ($(data).prop('problem'))
+        {
+            $('#problem').addClass('invalid');
+        }
+    }
 </script>
 
-
-<form id="bookingform" data-request="onSubmitForm" method = "POST">
+<form id="bookingform" data-request="onSubmitForm" data-request-success="updateFormErrors(data)">
     <div>
         <div class="form-group">
             <label for="app-type" class="select">
@@ -47,6 +65,7 @@
                     <option>Cooktop</option>
                 </select>
             </label>
+
             <label for="brand" class="select">
                 <select id="brand" name="brand">
                     <option disabled selected hidden>Brand</option>
@@ -128,9 +147,8 @@
             <label for="city">
                 <input type="text" id="city" placeholder="City" name="city"  required>
             </label>
-            <label for="phone">
-                <input type="number" id="phone" placeholder="Phone" name="phone" required>
-            </label>
+            <label for="phone"></label>
+            <input type="number" id="phone" placeholder="Phone" name="phone" required>
             <label for="problem">
                 <textarea id="problem" rows="1 " placeholder="Problem" name="problem" required></textarea>
             </label>
@@ -138,10 +156,3 @@
     </div>
     <button type="submit" class="submit">Book Now</button>
 </form>
-{% flash %}
-<div class="alert alert-success">
-    <p data-control="flash-message" data-interval="5" class="success">
-        {{ message }}
-    </p>
-</div>
-{% endflash %}
