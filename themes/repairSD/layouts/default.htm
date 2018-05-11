@@ -1,5 +1,47 @@
 description = "Default template"
 ==
+<?php
+function onSubmitForm()
+{
+    $book = new meral\setup\models\Bookingmodel();
+
+    $book->apptype = Input::get('app-type');
+    $book->brand = Input::get('brand');
+    $book->date = Input::get('date');
+    $book->time = Input::get('time');
+    $book->name = Input::get('name');
+    $book->address = Input::get('address');
+    $book->city = Input::get('city');
+    $book->phone = Input::get('phone');
+    $book->problem = Input::get('problem');
+
+    $validatedData = Validator::make(Input::all(), [
+        'app-type' => 'required',
+        'brand' => 'required',
+        'date' => 'required',
+        'time' => 'required',
+        'name' => 'required|min:2',
+        'address' => 'required|min:5',
+        'city' => 'required|min:2',
+        'phone' => 'required|numeric',
+        'problem' => 'required'
+    ]);
+    
+    if ($validatedData->fails()) {
+        return $validatedData->errors();
+    }
+    
+    $book->save();
+    $data = Input::all();
+    
+    Mail::send('repair',$data,function ($message) use ($data){
+        $message->from("indahazzard@gmail.com");
+        $message->to('from@example.com');
+        $message->subject('from meraldev');
+    });
+}
+?>
+==
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +51,7 @@ description = "Default template"
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="{{ 'assets/images/favicon.png'|theme }}" type="image/x-icon">
     <script type="text/javascript" src="{{ 'assets/js/jquery-3.3.1.js'|theme }}"></script>
+
     <script type='text/javascript' src="{{ 'assets/js/slick.min.js'|theme }}"></script>
     <script type='text/javascript' src="{{ 'assets/js/jquery-ui.min.js'|theme }}"></script>
     <script type='text/javascript' src="{{ 'assets/js/jQuery.scrollSpeed.js'|theme }}"></script>
@@ -18,6 +61,7 @@ description = "Default template"
     <script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.js'|theme }}"></script>
     <script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.min.js'|theme }}"></script>
     <script type='text/javascript' src="{{ 'assets/scripts/jquery.rateit.min.js.map'|theme }}"></script>
+
 
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/reset.css'|theme }}">
     <link rel="stylesheet" type="text/css" href="{{ 'assets/css/normalize.css'|theme }}">
@@ -39,10 +83,11 @@ description = "Default template"
 </main>
 <footer>
     {% partial 'site/footer' %}
-    
+
 </footer>
 <script type='text/javascript' src="{{ 'assets/js/coverflow-slideshow.js'|theme }}"></script>
 
+{% framework extras %}
 {% scripts %}
 
 </body>
