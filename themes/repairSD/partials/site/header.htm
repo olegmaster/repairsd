@@ -4,7 +4,7 @@
 <header>
 <div class="header">
     <nav >
-        <a href="{{ toHome }}" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 logo">
+        <a href="{{ 'index' | page }}" class="col-lg-2 col-md-2 col-sm-2 col-xs-2 logo">
             <img src="{{ 'assets/images/logo.png'|theme }}" alt="logo">
         </a>
         <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10 burger-menu">
@@ -12,16 +12,16 @@
 
             <ul id="test-slide" class="menu">
                 <li>
-                    <a href="/">Home</a>
+                    <a href="{{ 'index' | page }}">Home</a>
                 </li>
                 <li>
-                    <a href="/article">Articles</a>
+                    <a href="{{ 'article' | page }}">Articles</a>
                 </li>
                 <li>
-                    <a href="/review">Testimonials</a>
+                    <a href="{{ 'review' | page }}">Testimonials</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact</a>
+                    <a href="{{ 'contact' | page }}">Contact</a>
                 </li>
             </ul>
             <div id="btn-slide" class="hamburger">

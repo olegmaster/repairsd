@@ -4,14 +4,14 @@
     {% for post in posts %}
     <div class="article-single">
         <div class="text-articles">
-            <p class="excerpt"> {{ post.summary|raw|length > 100 ? post.summary|raw|slice(0, 100) ~ '...' : post.summary|raw
+            <p class="excerpt"> {{ post.summary|raw|length > 300 ? post.summary|raw|slice(0, 300) ~ '...' : post.summary|raw
                 }}</p>
             <div class="article-bottom">
                 {% if post.categories.count %}  {% endif %}
                 <ul class="tags">
                     {% for category in post.categories %}
                     <li>
-                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %}, {% endif %}
+                        <a href="{{ category.url }}">{{ category.name }}</a>{% if not loop.last %} {% endif %}
                     </li>
 
                     {% endfor %}
